@@ -1,5 +1,7 @@
 # Austin Inspection Practice Test
 
+**Live demo:** https://mwanin.github.io/austin-inspection-practice-test/ (best on a phone)
+
 **Would you pass your health inspection today?** A mobile-first self-inspection tool for Austin restaurants.
 Walk the kitchen with the same 47-item, 100-point form inspectors use, watch the score update as you go, and get a
 fix list ranked by what costs you the most points, all before the real inspector arrives.
@@ -25,7 +27,7 @@ hundreds of pages that nobody on the line has read. This turns it into a 15-minu
   Priority Foundation 2, Core 1.
 - **Fix as you go.** Marking an item Out immediately shows what to do about it.
 - **Verdict and fix list.** Pass or fail against Austin's 70-point line, plus every problem ranked by points and grouped
-  by the official correction deadline (3 days / 10 days / 90 days). Each item cites its form number and Food Code section.
+  by the official correction deadline (3 days / 10 days / 90 days or the next inspection). Each item cites its form number and Food Code section.
 - **Print or save as PDF** for the kitchen wall or the next staff meeting.
 - **One-tap sample result** ("Just looking?") so anyone can see the full output in seconds.
 - Works one-handed on a phone. Progress is saved in the browser. No account, no backend, no data leaves the device.
@@ -56,6 +58,7 @@ saved to `localStorage`.
 src/
   data/rubric.json        47 items: official text, points, code ref, plain language, how to check, fix
   data/sample.ts          the demo kitchen behind "See a sample result"
+  lib/rubric.ts           typed rubric, stations, saved-answer validation
   lib/scoring.ts          pure scoring: score, pass/fail, band, ranked fix list
   lib/store.ts            app state and persistence
   screens/                Start, Inspect, Verdict
@@ -70,7 +73,7 @@ Requires Node 22+.
 ```bash
 npm install
 npm run dev               # http://localhost:5173
-npm test                  # scoring and sample-data tests
+npm test                  # scoring, rubric-helper and sample-data tests
 npm run validate:rubric   # rubric integrity + code refs vs. the DSHS guide
 npm run build             # type-check and production build to dist/
 ```

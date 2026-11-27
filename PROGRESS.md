@@ -3,7 +3,7 @@
 _Last updated: 2026-11-26_
 
 ## Status
-Phases 0–3 done: rubric, start screen, gated station-by-station inspection, and the verdict screen with a ranked fix list and print/PDF. Sample-result button and README done. Next: deploy (waiting on the user to talk it through).
+Phases 0–3 done, audited, and deployed to GitHub Pages: https://mwanin.github.io/austin-inspection-practice-test/. Only optional work remains (Phase 4 AI layer, confirming the form edition).
 
 ## Checklist
 - [x] Read the build plan
@@ -18,7 +18,8 @@ Phases 0–3 done: rubric, start screen, gated station-by-station inspection, an
 - [x] Demo touch: "Just looking? See a sample result" button (85, Yellow, 2 Priority items Out). Tested in `src/data/sample.test.ts`
 - [x] README with screenshots (`docs/*.png`)
 - [x] GitHub repo (public): https://github.com/MwaniN/austin-inspection-practice-test
-- [ ] Deploy (Vercel or GitHub Pages) and add the link here
+- [x] Audit (3 Sonnet agents: rubric vs. sources, code, live UI + docs) and fixes applied, see Decisions log
+- [x] Deploy to GitHub Pages: https://mwanin.github.io/austin-inspection-practice-test/ (auto-deploys on push to `main` via `.github/workflows/deploy.yml`)
 - [ ] *(Optional)* Phase 4: AI layer
 
 ## Decisions log
@@ -33,6 +34,7 @@ Phases 0–3 done: rubric, start screen, gated station-by-station inspection, an
 - **Fail line: 70 passes, 69 or below fails and triggers a re-inspection.** Confirmed by local news coverage
   (Daily Texan: "70 or above considered a passing score"; WhatNow: "reinspection required due to the health score being below 70").
   Supporting context: repeat failures within 3 years lead to a criminal complaint, and a third failure means closure (KUT, Aug 2026, citing APH).
+  The app's `fail_note` deliberately leaves the penalty claims out (news-sourced, not in the official documents); it only says 69 or below fails and gets a re-inspection.
 - **Stack: Vite + React + Tailwind on Node 22,** static, no backend. The rubric validator is written in Node too, so there is a single toolchain.
 - **Rubric gets a `check` field** (how to self-check this item right now), on top of the plan's schema. Approved by the user.
 
@@ -46,17 +48,17 @@ Phases 0–3 done: rubric, start screen, gated station-by-station inspection, an
   so the higher-point items come first.
 - **App structure (Phase 2):** `src/lib/scoring.ts` (pure `summarize()`, unit-tested in `scoring.test.ts`), `src/lib/store.ts`
   (`useReducer` + localStorage key `aipt:v1`; screens `start | inspect | verdict`; tapping the selected answer again clears it),
-  `src/lib/ui.ts` (band/severity colors), `components/` (ScoreBar, ItemCard, Disclaimer), `screens/` (StartScreen, InspectScreen).
+  `src/lib/ui.ts` (band/severity colors), `components/` (ScoreBar, ItemCard, Disclaimer), `screens/` (StartScreen, InspectScreen, VerdictScreen).
   The app always opens on the start screen; it shows "Resume" when there's saved progress.
 - **UI choices:** one station per screen with a scrollable chip stepper (✓ when complete, red count of items needing a fix); a Fix
-  box appears as soon as an item is marked "Needs fix"; the form item # and code ref sit inside "How to check" so the main card
+  box appears as soon as an item is marked Out; the form item # and code ref sit inside "How to check" so the main card
   stays plain-language.
 - **Answer labels stay "In / Out / N/A"** (the official inspector marks). The start screen has a short "What In, Out and N/A
   mean" box explaining them. User's call, after briefly trying "Looks good / Needs fix".
 - **Unanswered prompt, never a suggested answer:** each station ends with "N items at this station are still unanswered" plus a
   "Show me" button that scrolls to the first unanswered card and briefly outlines it (or "All N items answered" when done).
-  The old "Mark the remaining N as In" button was removed because it told people *what* to answer. Fast demos will use the
-  "fill sample data" button instead.
+  The old "Mark the remaining N as In" button was removed because it told people *what* to answer. Fast demos use the
+  "Just looking? See a sample result" link instead.
 - **Stations are gated:** you can't move forward until every item at the current station is answered. The Next / "See my
   results" button keeps its label but turns grey; tapping it jumps to the first unanswered card. Station
   chips past the first incomplete station are disabled with a lock icon. Going back is always allowed. User's call.
@@ -70,11 +72,25 @@ Phases 0–3 done: rubric, start screen, gated station-by-station inspection, an
 - **Sample result:** `src/data/sample.ts` (8 Out: items 2, 14, 28, 29, 31, 36, 39, 45; N/A: 6, 16, 25 → 85, Yellow, passes).
   The `loadSample` action fills all 47 answers and goes straight to the verdict, with `sample: true` saved alongside the answers.
   While it's set, the verdict shows a blue "Sample results for a made-up kitchen" banner with "Start my own", the score label
-  reads "Sample score", and the printed header says "Sample report". Reset clears it.
+  reads "Sample score", and the printed header says "Sample report". Reset clears it, and so does editing any answer
+  (the answers are then the user's own).
 - **README** is written for someone opening the repo from the job application. It only states what's sourced: it leaves out
   the plan's unverified "Green/Yellow/Red twice a year" claim. Screenshots in `docs/` were taken with reduced motion,
   at 390×844 @2x.
 - **Logo is a clipboard, not a checkmark:** a check in a square read as a clickable checkbox.
+- **Audit fixes (2026-11-26):**
+  - Rubric text corrected against the sources: food handler card within 30 days (not 60); CFM on site whenever open;
+    date marking applies to ready-to-eat *TCS* food; vacuum packing only needs a plan past the 48-hour rule; in-use utensils
+    may sit in water ≥135°F; hand sinks need a sign; gloves/handwash on task change; medicines stored away from food;
+    item 23 code_ref gains 5-202.12 (the 100°F hand-sink rule).
+  - Saved state is validated on load (`cleanAnswers` and `reachableArea` in `src/lib/rubric.ts`, tested in `rubric.test.ts`):
+    unknown ids, bad values and disallowed N/A are dropped; `areaIndex` is clamped to the first incomplete station.
+    The reducer also clamps `goArea` and only allows `finish` when all 47 are answered. Saving is wrapped in try/catch.
+  - Verdict tallies count rubric items only. The gated Next button has `aria-disabled`. Primary tap targets are now 44px or more
+    (chips, back arrow, "How to check", "Show me"). The favicon is the clipboard logo. The unused `answerMany` action was removed.
+  - Left as is (judged fine): the item 1 cooling fix wording, the item 8 receiving temps simplification, and the item 30 permit text.
+- **Deploy: GitHub Pages** via Actions (tests + rubric check + build, then deploy). `vite.config.ts` uses `base: './'`
+  (relative asset paths), so the same build works at the Pages sub-path, at a root domain, or on Vercel. There's no router, so no SPA fallback is needed.
 - **Screenshots/visual checks:** the Playwright MCP needs an X server and fails in WSL. Instead use `playwright-core` driving
   headless system Chrome (`/opt/google/chrome/chrome`) from a scratch script at a 390×844 mobile viewport.
 
@@ -91,7 +107,7 @@ Phases 0–3 done: rubric, start screen, gated station-by-station inspection, an
   Failing that, email ehsd.service@austintexas.gov. Until then the 47-item form is a safe basis.
 
 ## Next up
-1. **Deploy: talk it through with the user first** (they asked to discuss before deploying). Options: Vercel (zero config)
-   or GitHub Pages (needs `base: '/austin-inspection-practice-test/'` in `vite.config.ts` plus a Pages workflow). Then add
-   the live link to the README (top, under the title) and to the checklist here.
-2. Optional: Phase 4 AI layer; confirm Austin's current form edition (Open question A).
+1. Optional: Phase 4 AI layer (see the plan in `resources/`).
+2. Confirm Austin's current form edition (Open question A). If it's the 56-item form, scoring needs a rethink.
+3. Optional polish from the audit, not yet done: a tick mark at 70 on the verdict gauge; unify the two "Start over" confirm
+   messages; real radio keyboard handling (or `aria-pressed` toggles) for the In/Out/N/A buttons.

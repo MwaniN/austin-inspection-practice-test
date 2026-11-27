@@ -18,7 +18,7 @@ export function ScoreBar({ summary, onHome }: Props) {
       <div className="mx-auto flex max-w-2xl items-center gap-4 px-4 py-3">
         <button
           onClick={onHome}
-          className="-ml-2 rounded-lg p-2 text-stone-500 hover:bg-stone-100 hover:text-stone-800"
+          className="-ml-2.5 grid size-11 place-items-center rounded-lg text-stone-500 hover:bg-stone-100 hover:text-stone-800"
           aria-label="Back to start"
         >
           <svg viewBox="0 0 20 20" fill="currentColor" className="size-5" aria-hidden>

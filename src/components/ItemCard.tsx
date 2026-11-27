@@ -42,7 +42,7 @@ export function ItemCard({ item, answer, onAnswer }: Props) {
 
       <button
         onClick={() => setOpen((o) => !o)}
-        className="mt-3 flex items-center gap-1.5 text-sm font-medium text-stone-700 hover:text-stone-900"
+        className="-mx-2 mt-1 flex min-h-11 items-center gap-1.5 rounded-lg px-2 text-sm font-medium text-stone-700 hover:text-stone-900"
         aria-expanded={open}
       >
         <svg
@@ -75,7 +75,7 @@ export function ItemCard({ item, answer, onAnswer }: Props) {
         </div>
       )}
 
-      <div className={`mt-4 grid gap-2 ${options.length === 3 ? 'grid-cols-3' : 'grid-cols-2'}`} role="radiogroup" aria-label={item.title}>
+      <div className={`mt-2 grid gap-2 ${options.length === 3 ? 'grid-cols-3' : 'grid-cols-2'}`} role="radiogroup" aria-label={item.title}>
         {options.map((o) => {
           const selected = answer === o.value
           return (

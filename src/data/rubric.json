@@ -28,7 +28,7 @@
       { "label": "Red", "min": 0, "max": 69 }
     ],
     "bands_note": "Illustrative only. Austin publishes a numeric score, not an official color grade.",
-    "fail_note": "A score of 69 or below fails and triggers a re-inspection. Repeat failures within 3 years can lead to a criminal complaint, and a third failure means closure."
+    "fail_note": "A score of 69 or below fails, and Austin Public Health follows up with a re-inspection."
   },
   "severity_labels": {
     "priority": { "label": "Priority", "short": "P", "correct_within": "Fix immediately (within 3 days)" },
@@ -230,7 +230,7 @@
       "points": 3,
       "code_ref": "Food Code 2-301.12, 2-301.14, 3-304.15",
       "plain_language": "Staff must wash their hands properly (20 seconds with soap) at the right times, and change gloves between tasks. Gloves don't replace handwashing.",
-      "check": "Watch for 5 minutes. Do people wash hands when they come on the line, after handling raw meat, and after touching their face or phone? Do they wash before putting on new gloves?",
+      "check": "Watch for 5 minutes. Do people wash hands when they come on the line, after handling raw meat, and after touching their face or phone? Do they wash and put on fresh gloves when they switch tasks?",
       "fix": "Coach on the spot. Remind staff to wash hands and change gloves between raw and ready-to-eat tasks. Post a \"when to wash\" sign at every hand sink.",
       "allows_na": false
     },
@@ -285,7 +285,7 @@
       "code_ref": "Food Code 7-102.11, 7-201.11, 7-202.12",
       "plain_language": "Every chemical must be labeled and stored below and away from food, food equipment, and single-use items.",
       "check": "Look under and around sinks, prep shelves, and the dish pit. Is there an unlabeled spray bottle, or a chemical stored above or next to food?",
-      "fix": "Label every spray bottle with its contents. Move all chemicals to a dedicated shelf below and away from food. Get rid of personal medicines in food areas.",
+      "fix": "Label every spray bottle with its contents. Move all chemicals to a dedicated shelf below and away from food. Keep personal medicines and first-aid supplies away from and below food.",
       "allows_na": false
     },
     {
@@ -322,7 +322,7 @@
       "severity": "priority_foundation",
       "points": 2,
       "code_ref": "Food Code 2-101.11, 2-102.11, 2-103.11; TFER §228.31",
-      "plain_language": "A person in charge must be on site whenever you're open and able to answer food safety questions. A Certified Food Manager must be on staff.",
+      "plain_language": "A person in charge who can answer food safety questions must be on site whenever you're open, and so must a Certified Food Manager.",
       "check": "Who's in charge right now? Could they explain cold-holding temps and when to exclude a sick worker? Is the CFM certificate posted and current?",
       "fix": "Designate a person in charge for every shift. Get at least one manager certified (an online course plus a proctored exam), and post the certificate.",
       "allows_na": false
@@ -335,7 +335,7 @@
       "severity": "priority_foundation",
       "points": 2,
       "code_ref": "TFER §228.31(d); Food Code 2-103.11(A)",
-      "plain_language": "Every food employee needs an accredited food handler certificate within 60 days of hire, and non-staff stay out of the kitchen.",
+      "plain_language": "Every food employee needs an accredited food handler certificate within 30 days of hire, and non-staff stay out of the kitchen.",
       "check": "Pull your employee list. Does everyone who handles food have a current food handler card on file? Are friends, delivery drivers, or vendors wandering through the kitchen?",
       "fix": "Have anyone missing a card take an accredited online course (about an hour, a few dollars) this week. Keep copies in a binder.",
       "allows_na": false
@@ -347,7 +347,7 @@
       "text": "Hot and Cold Water available; adequate pressure, safe",
       "severity": "priority_foundation",
       "points": 2,
-      "code_ref": "Food Code 5-103.11, 5-103.12",
+      "code_ref": "Food Code 5-103.11, 5-103.12, 5-202.12",
       "plain_language": "Every sink needs hot and cold running water with good pressure. Hand sinks need at least 100°F.",
       "check": "Run the hot water at the hand sinks, dish sink, and prep sinks for 30 seconds. Does it get hot? Is the pressure good?",
       "fix": "Have the water heater checked if hot water is slow or missing. If you have no hot water at all, stop food prep until it's fixed.",
@@ -375,7 +375,7 @@
       "severity": "priority_foundation",
       "points": 2,
       "code_ref": "Food Code 3-502.11, 3-502.12, 8-103.11",
-      "plain_language": "Special processes (sous vide, vacuum packing, curing, smoking for preservation) need an approved variance or HACCP plan, and you have to follow it.",
+      "plain_language": "Special processes (sous vide, curing, smoking for preservation, and vacuum packing that's held longer than 48 hours) need an approved variance or HACCP plan, and you have to follow it.",
       "check": "Do you vacuum-pack, sous vide, cure, ferment, or smoke-to-preserve anything? If so, is there an approved plan on site, and are its logs filled in?",
       "fix": "Stop the process until you have an approved variance or HACCP plan. If you have one, keep the logs current every day.",
       "allows_na": true,
@@ -416,11 +416,11 @@
       "severity": "priority_foundation",
       "points": 2,
       "code_ref": "Food Code 3-501.17, 3-501.18",
-      "plain_language": "Ready-to-eat food kept more than 24 hours must be labeled with a date. It must be used or thrown out within 7 days (the day it was made counts as day 1).",
+      "plain_language": "Ready-to-eat perishable (TCS) food kept more than 24 hours must be labeled with a date. It must be used or thrown out within 7 days (the day it was made counts as day 1).",
       "check": "Pull 5 random containers from the walk-in and reach-ins. Does each have a date, and is it within 7 days?",
       "fix": "Throw out anything unlabeled or older than 7 days. Put a roll of day-dot labels at every station and do a daily cooler sweep.",
       "allows_na": true,
-      "na_when": "You never hold ready-to-eat food for more than 24 hours."
+      "na_when": "You never hold ready-to-eat perishable food for more than 24 hours."
     },
     {
       "id": 29,
@@ -456,8 +456,8 @@
       "severity": "priority_foundation",
       "points": 2,
       "code_ref": "Food Code 5-204.11, 5-205.11, 6-301.11, 6-301.12",
-      "plain_language": "Every hand sink must have soap, paper towels, and nothing blocking it, and it can only be used for handwashing.",
-      "check": "Visit every hand sink. Is it stocked with soap and towels? Is anything stored in it or in front of it? Any dishes, ice, or food in the basin?",
+      "plain_language": "Every hand sink must have soap, paper towels, a handwashing sign, and nothing blocking it, and it can only be used for handwashing.",
+      "check": "Visit every hand sink. Is it stocked with soap and towels, with a handwashing sign posted? Is anything stored in it or in front of it? Any dishes, ice, or food in the basin?",
       "fix": "Restock now and clear anything blocking it. Make \"hand sink check\" part of every opening and mid-shift checklist.",
       "allows_na": false
     },
@@ -562,7 +562,7 @@
       "points": 1,
       "code_ref": "Food Code 4-903.11, 4-901.11, 3-304.12",
       "plain_language": "Clean utensils must be stored clean, dry, and covered or upside down. Utensils in use during service need a proper resting place.",
-      "check": "Are clean pans stacked wet? Are utensils in drawers that are dirty? Are in-use scoops and spoons sitting in stagnant water, or with handles buried in food?",
+      "check": "Are clean pans stacked wet? Are utensils in drawers that are dirty? Are in-use scoops and spoons sitting in water that isn't running or at least 135°F, or with handles buried in food?",
       "fix": "Air-dry pans before stacking them, upside down. Store in-use utensils in the food with the handle up, on a clean surface, or in a dipper well with running water.",
       "allows_na": false
     },

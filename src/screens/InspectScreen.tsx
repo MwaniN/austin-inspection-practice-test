@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { ItemCard } from '../components/ItemCard'
 import { ScoreBar } from '../components/ScoreBar'
-import { itemsByArea, type Answer, type Answers } from '../lib/rubric'
+import { itemsByArea, reachableArea, type Answer, type Answers } from '../lib/rubric'
 import type { ScoreSummary } from '../lib/scoring'
 import type { Action } from '../lib/store'
 
@@ -17,9 +17,7 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
   const isLast = areaIndex === itemsByArea.length - 1
   const unanswered = items.filter((i) => answers[i.id] === undefined)
   const blocked = unanswered.length > 0
-  // Furthest station you may open: every station before it must be fully answered.
-  const firstIncomplete = itemsByArea.findIndex(({ items }) => items.some((i) => answers[i.id] === undefined))
-  const reachable = firstIncomplete === -1 ? itemsByArea.length - 1 : firstIncomplete
+  const reachable = reachableArea(answers)
 
   // Start each station at the top.
   useEffect(() => {
@@ -52,7 +50,7 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
         </div>
 
         {unanswered.length > 0 ? (
-          <div className="mt-4 flex items-center justify-between gap-3 rounded-xl bg-white px-4 py-3 ring-1 ring-stone-200">
+          <div id="unanswered-note" className="mt-4 flex items-center justify-between gap-3 rounded-xl bg-white px-4 py-3 ring-1 ring-stone-200">
             <p className="text-sm text-stone-600">
               <span className="tabular font-semibold text-stone-900">{unanswered.length}</span>{' '}
               {unanswered.length === 1 ? 'item' : 'items'} at this station {unanswered.length === 1 ? 'is' : 'are'} still
@@ -60,7 +58,7 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
             </p>
             <button
               onClick={() => showItem(unanswered[0].id)}
-              className="shrink-0 rounded-lg px-3 py-2 text-sm font-semibold text-stone-800 ring-1 ring-inset ring-stone-300 transition hover:bg-stone-50"
+              className="min-h-11 shrink-0 rounded-lg px-3 py-2 text-sm font-semibold text-stone-800 ring-1 ring-inset ring-stone-300 transition hover:bg-stone-50"
             >
               Show me
             </button>
@@ -94,6 +92,8 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
               else if (isLast) dispatch({ type: 'finish' })
               else dispatch({ type: 'goArea', index: areaIndex + 1 })
             }}
+            aria-disabled={blocked}
+            aria-describedby={blocked ? 'unanswered-note' : undefined}
             className={`h-12 flex-1 rounded-xl text-[15px] font-semibold transition active:scale-[0.99] ${
               blocked ? 'bg-stone-200 text-stone-600' : 'bg-stone-900 text-white shadow-sm hover:bg-stone-800'
             }`}
@@ -149,8 +149,9 @@ function AreaStepper({
               onClick={() => onPick(i)}
               disabled={locked}
               title={locked ? 'Answer every item in the earlier stations first' : undefined}
+              aria-label={locked ? `${area.name} (locked until earlier stations are answered)` : undefined}
               aria-current={active ? 'step' : undefined}
-              className={`flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium whitespace-nowrap ring-1 ring-inset transition ${
+              className={`flex min-h-11 shrink-0 items-center gap-1.5 rounded-full px-3.5 py-2 text-sm font-medium whitespace-nowrap ring-1 ring-inset transition ${
                 active
                   ? 'bg-stone-900 text-white ring-stone-900'
                   : locked

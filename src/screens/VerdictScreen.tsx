@@ -21,7 +21,10 @@ export function VerdictScreen({ summary, answers, sample, onBack, onRestart }: P
   const shown = useCountDown(score)
 
   const counts = { in: 0, out: 0, na: 0 }
-  for (const a of Object.values(answers)) counts[a]++
+  for (const item of rubric.items) {
+    const a = answers[item.id]
+    if (a) counts[a]++
+  }
 
   const groups = SEVERITIES.map((sev) => {
     const items = failed.filter((i) => i.severity === sev)

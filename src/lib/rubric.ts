@@ -56,3 +56,21 @@ export const itemsByArea: { area: Area; items: Item[] }[] = rubric.areas.map((ar
   area,
   items: rubric.items.filter((i) => i.area === area.id).sort((a, b) => a.id - b.id),
 }))
+
+/** Furthest station the user may open: every station before it must be fully answered. */
+export function reachableArea(answers: Answers): number {
+  const first = itemsByArea.findIndex(({ items }) => items.some((i) => answers[i.id] === undefined))
+  return first === -1 ? itemsByArea.length - 1 : first
+}
+
+/** Keep only answers for real items with a valid value (N/A only where the item allows it). */
+export function cleanAnswers(raw: unknown): Answers {
+  const out: Answers = {}
+  if (!raw || typeof raw !== 'object' || Array.isArray(raw)) return out
+  const src = raw as Record<string, unknown>
+  for (const item of rubric.items) {
+    const a = src[item.id]
+    if (a === 'in' || a === 'out' || (a === 'na' && item.allows_na)) out[item.id] = a
+  }
+  return out
+}
