@@ -43,8 +43,9 @@ Phases 0–1 done. App scaffolded and `src/data/rubric.json` complete and valida
   so the higher-point items come first.
 
 ## Needs review
-- **Code refs** were matched by hand to the 56-item guide's section lists and Food Code numbering. They're accurate at section level
-  but worth a spot-check before showing anyone who knows the code.
+- **Code refs** were matched by hand. Many come straight from the 56-item guide's "Applicable Code Sections" lists; some
+  (e.g. items 10, 19, 20, 31, 33, 39, 43–46) were filled in from Food Code numbering and haven't been checked against the source text.
+  Spot-check them before showing anyone who knows the code.
 - **Plain-language / check / fix text** was written from the marking instructions plus standard Food Code limits (cooking temps,
   sanitizer ppm, 7-day date marking, etc.). It's a summary, not legal advice, and the UI should say so.
 
