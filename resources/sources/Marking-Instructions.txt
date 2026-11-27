@@ -1,0 +1,1598 @@
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+For each item on the inspection report form in the Priority, Priority Foundation,
+and Core section, the inspector should indicate one of the following for
+COMPLIANCE STATUS: “IN” which means that the item is in compliance;
+“OUT” which means that the item is not in compliance; “N.O.” which means
+that the item was not observed during the inspection; or “N.A.” which means
+that the item is not applicable for the facility. If N.A. or N.O. is not listed as
+an option for a particular item, this means that this item must be evaluated
+during the inspection and a compliance status must be determined. If the
+item is marked “OUT”, document details of each violation for the item
+number in the “Observations and Corrective Actions” section on the
+second page of the inspection report. Compliance status should be
+determined as a result of observations that establish a pattern of
+noncompliance. Consideration should be given to the seriousness of the
+observation with regard to prevention of foodborne illness.
+
+Priority Foundation and Core items are to control basic operational and
+sanitation conditions within a facility, and if not controlled, they could be
+contributing factors to foodborne illness by introducing hazards (biological,
+chemical and physical), into the end product, either directly or indirectly. For
+example, equipment in disrepair, such as a cutting board with deep
+grooves/cuts, makes effective cleaning difficult or impossible, and thereby
+could introduce a bacterial hazard onto food that comes into contact with the
+board. In addition, in assessing Priority Foundation and Core items, it is
+important to make an overall assessment of the conditions by looking for
+trends versus an isolated incident; and the potential public health impact. For
+example, a few missing floor tiles in a dry area may not rise to the level of a
+“violation”; however, missing floor tiles in an area where equipment is subject
+to in-place manual cleaning without the use of an enclosed clean in place.
+
+For items marked “OUT,” further indicate the status of the violation by
+marking an “” in the corresponding box for Corrected On-Site (COS) during
+the inspection and/or Repeat violation (R). Marking COS indicates that all
+violations cited under that particular item number have been corrected and
+verified before completing the inspection. The actual corrective action taken
+for each violation should be documented in the “Observations and Corrective
+Actions” section of the inspection report. For example, Item #31 Handwashing
+sink is marked out of compliance because the establishment does not have
+soap and paper towels at the handwashing sink. The person in charge partially
+corrects the problem by putting soap at the sink, but does not replace the
+paper towels or provide any other effective means for drying hands. The
+corrective action taken for the soap is documented in the narrative on the
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                               Page 1 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+form, but COS is not marked for Item # 31 because all violations under that
+item were not corrected. Marking R indicates that the same violation under a
+particular item number was cited on the last inspection report. Using the same
+scenario, on the subsequent inspection if the provision of soap and paper
+towels is not in violation, but employees are not washing hands in the correct
+sink (which is also cited under Item # 31 Hand washing sink), R would not
+be marked because this is a new violation which was not cited on the previous
+inspection report.
+
+TEMPERATURE OBSERVATIONS
+Item/location Record the common name of the food as well as the condition,
+process, and location of the food at the time of monitoring e.g. hot holding,
+refrigerator, prep-table. Temperatures in compliance and out of compliance
+should be documented. If there is insufficient space for the number of
+temperatures taken, record the additional temperatures in the “Observations
+and Corrective Actions” section of the inspection report. Food Temperature
+Record the temperature indicated on the inspector’s thermometer. Specify the
+measurement in °F or °C. (Note: Food temperature measuring devices that
+are scaled only in Fahrenheit should be accurate to ±2°F in the intended range
+of use. Food temperature measuring devices that are scaled only in Celsius or
+dually scaled in Celsius and Fahrenheit should be accurate to ± 1°C in the
+intended range of use.)
+
+SIGNATURE BLOCK
+Person in Charge (PIC) is the individual present at a food establishment who
+is responsible for the operation at the time of the inspection. Inspector The
+Inspector is the individual conducting the inspection. Date: The date the
+inspection is completed. Follow-up: The determination of whether to conduct
+a re-inspection or other enforcement action. Follow-up Date The date the
+follow-up inspection will be conducted.
+
+
+
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                               Page 2 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+1. Proper cooling time and temperatures
+
+       NOTE:       The requirement for cooling cooked Time/Temperature
+           Control for Safety (TCS) food, is that the food must be cooled from
+           135°F to 41°F or less in 6 hrs. provided that the food is cooled
+           from 135°F to 70°F within the first 2 hours. For example, if a
+           facility cools chili from 135°F to 70°F in 1.5 hours; they then have
+           4.5 hours to get it from 70°F to 41°F or less. There are two critical
+           limits that must be met with cooling. Discussions with the person
+           in charge along with observations should be used to determine
+           compliance. For instance, during discussion the person in charge
+           says that a food product was cooled overnight in the walk-in
+           cooler. The product is checked and the temperature is 50°F. Eight
+           hours have elapsed from closing to opening. This item should be
+           marked OUT because the product did not cool from 135°F to 70°F
+           within two hours and from 135°F to 41°F or less within a total of
+           6 hours. Temperatures IN compliance and OUT of compliance
+           should be recorded in the “Temperature Observations” section of
+           the inspection report. If there is insufficient space for the number
+           of temperatures taken, additional temperatures should be
+           documented in the “Observations and Corrective Actions” section
+           of the inspection report. Because the entire cooling process is
+           difficult to observe during an inspection, at the onset of the
+           inspection a determination of whether foods are currently being
+           cooled should be made. If cooling is taking place, temperatures
+           should be taken to make a determination of whether proper
+           cooling is possible with procedures being used.
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           actual temperatures of TCS foods in the cooling process. The basis
+           for determining IN or OUT of compliance can also be supported
+           through discussion and/or record review which would provide the
+           inspector reliable data of the “start time” for cooling from 135°F.
+           See above NOTE for an example of using actual temperature and
+           discussion with the PIC in determining OUT of compliance without
+           actually being at the establishment during the entire cooling of
+           TCS process, from start to finish.
+
+       N.A. This item may be marked N.A. when the establishment does not
+            receive raw eggs, shellstock, or milk, prepares no TCS food from
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                               Page 3 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                ambient temperature ingredients that require cooling, and does
+                not cool cooked TCS food.
+
+       N.O. This item may be marked N.O. when the establishment does cool
+            TCS food, but proper cooling per the prescribed temperature and
+            time parameters cannot be determined during the length of the
+            inspection.
+
+
+2. Proper cold holding temperatures
+
+       NOTE: Temperatures IN compliance and OUT of compliance should be
+           recorded in the “Temperature Observations” section of the
+           inspection report. If there is insufficient space for the number of
+           temperatures taken, additional temperatures should be
+           documented in the “Observations and Corrective Action” section
+           of the inspection report.
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           actual food temperature measurements using a calibrated food
+           temperature measuring device. Discussions should be made with
+           the PIC to determine if a food is in the process of cooling, TPHC is
+           used, or there is an approved method to render a food so that it
+           is not TCS food. This item should be marked IN compliance when
+           the regulatory authority determines that, of the temperature
+           measurements taken during the inspection, no cold holding
+           temperatures are greater than prescribed by the Code. This item
+           should be marked OUT of compliance if one TCS food is found out
+           of temperature, with supportive evidence, unless TPHC is used for
+           that TCS food.
+
+       N.A. This item may be marked N.A. when the establishment does not
+            cold hold food.
+
+       N.O       This item may be marked N.O. when the establishment does cold
+                 hold food, but no foods are being held cold during the time of
+                 inspection. Inspections should be conducted during a time when
+                 hot holding temperatures can be taken.
+
+
+3. Proper hot holding temperatures
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                               Page 4 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+
+       NOTE: Temperatures IN compliance and OUT of compliance should be
+           recorded in the “Temperature Observations” section of the
+           inspection report. If there is insufficient space for the number of
+           temperatures taken, additional temperatures should be
+           documented in the “Observations and Corrective Action” section
+           of the inspection report.
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           actual food temperature measurements using a calibrated food
+           temperature measuring device. This item should be marked IN
+           compliance when the regulatory authority determines that, of the
+           TCS food temperature measurements taken during the inspection,
+           no hot holding temperatures are less than prescribed by the Code.
+           This item is marked OUT of compliance if one TCS food is found
+           out of temperature, unless Time as a Public Health Control (TPHC)
+           is used for that TCS food.
+
+       N.A      This item may be marked N.A. when the establishment does not
+                hot hold food.
+
+       N.O. This item may be marked N.O. when the establishment does hot
+            hold foods, but no foods are being held hot during the time of
+            inspection. Inspections should be conducted during a time when
+            hot holding temperatures can be taken.
+
+
+4. Proper cooking time and temperatures
+
+       NOTE: The cooking temperatures of foods must be measured to
+           determine compliance or noncompliance. Do not rely upon
+           discussions with managers or cooks to make a determination of
+           compliance or noncompliance. The temperature of raw animal
+           foods in each species cooked during the inspection should be
+           taken. For instance, if the facility fries chicken, scrambles eggs,
+           bakes fish, grills hamburgers, and slow-roasts prime rib during the
+           inspection – the cook temperatures of all of the products should
+           be measured and recorded. Temperatures, both IN compliance
+           and OUT of compliance, should be recorded in the “Temperature
+           Observations” section of the inspection report. If there is
+           insufficient space for the number of temperatures taken,
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                               Page 5 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                additional temperatures should be documented in the
+                “Observations and Corrective Actions” section on the second page
+                of the inspection report. The time of inspections should be varied
+                so that cooking can be observed.
+
+       IN/OUT This item should be marked IN or OUT of compliance. This item
+           should be marked OUT of compliance if the items checked do not
+           meet the temperature requirements for cooking and the employee
+           doing the cooking attempts to serve the product without returning
+           the product to the cooking process. If a food is cooked below the
+           required temperature but the facility has an approved Consumer
+           Advisory or an approved variance with HACCP plan for that food
+           item, mark the item IN compliance, record the temperature and
+           document the reason it is IN compliance. Foods cooked with a
+           non-continuous cooking process are marked OUT of compliance if
+           the food item does not meet the time/temperature requirements
+           for cooking and if written procedures describing how the foods are
+           prepared and stored after initial heating but prior to cooking for
+           sale or service are not available for review.
+
+       N.A. This item may be marked N.A. when no raw animal foods are
+            cooked in the establishment.
+
+       N.O. This item may be marked N.O. when you are unable to determine
+            the cooking temperature of any food. The inspection should be
+            arranged at an optimum time for measuring at least one cooked
+            item.
+
+       Internal Cooking Temperature Specifications for Raw Animal
+       Foods
+
+                145°F for 15 seconds
+                    • Raw eggs cooked for immediate service
+                    • Fish, except as listed below
+                    • Meat, except as listed in the next 2 rows
+                    • Commercially raised game animals, rabbits
+                155°F for 15 seconds:
+                    • Ratites (Ostrich, Rhea and Emu)
+                    • Injected meats
+                    • Mechanically tenderized meats
+                    • Raw eggs not for immediate service
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                               Page 6 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                    • Comminuted meat, fish, or commercially raised game
+                    animals
+                165°F for 15 seconds:
+                    • Wild game animals
+                    • Poultry
+                    • Stuffed fish, meat, pork, pasta, ratites & poultry
+                    • Stuffing containing fish, meat, ratites & poultry
+                * Whole Meat Roasts: Refer to cooking charts
+                *135°F Plant base (fruits and vegetables) food for hot holding
+
+
+5. Proper reheating procedures for hot holding
+
+       NOTE: The reheating temperatures of foods must be taken to determine
+           compliance or noncompliance. Do not rely solely upon discussions
+           with managers or cooks to determine compliance or
+           noncompliance. Temperatures IN and OUT of compliance should
+           be recorded in the “Temperature Observations” section of the
+           inspection report. If there is insufficient space for the number of
+           temperatures taken, additional temperatures should be
+           documented in the “Observations and Corrective Actions” section
+           of the inspection report.
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           actual temperature measurements of foods upon completion of
+           the reheating process and prior to being placed in hot holding
+           using a calibrated food temperature measuring device. This item
+           should be marked OUT of compliance if the items checked are not
+           reheated to the required temperatures or within 2 hours prior to
+           hot holding.
+
+       N.A. This item may be marked N.A. when foods are not held over for a
+            second service and/or re-heating for hot holding is not performed
+            in the establishment.
+
+       N.O. This item may be marked N.O. such as when foods are held over
+            for a second service, but no foods are reheated during the time of
+            inspection.
+
+
+6. Time as a Public Health Control: procedures and records
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                               Page 7 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations, record review, a discussion with the PIC, and
+           the review of any standard operating procedures to determine if
+           the intent of the Code for use of TPHC is met. This provision only
+           applies if it is the actual intention or conscious decision by the PIC
+           to store TCS food out of temperature control using TPHC;
+           otherwise, it may be a cold or hot holding issue. This item should
+           be marked IN compliance if there is a written procedure at the
+           food establishment that identifies the types of food products that
+           will be held using time only, describes the procedure for how TPHC
+           will be implemented, and if applicable delineates how food items,
+           previously cooked and cooled before time is used, are properly
+           cooled; and food items (marked or identified) do not exceed the
+           4-hour limit at any temperature or 6-hour limit at 70°F or less.
+           This item should be marked OUT of compliance when the PIC
+           implies the use of TPHC but does not have an effective mechanism
+           for indicating the point in time when the food is removed from
+           temperature control to the 4 or 6-hour discard time, or a written
+           procedure or an effective mechanism for using TPHC is not present
+           at the facility.
+
+       N.A      This item may be marked N.A. when the establishment does not
+                use time only as the public health control.
+
+       N.O. This item may be marked N.O. when the establishment uses time
+            only as the public health control, but is not using this practice at
+            the time of inspection.
+
+
+7. Food obtained from approved source
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations of food products, food labels and packaging,
+           water analyses, and discussion with the PIC or other food
+           employees. This item should be marked IN compliance when the
+           regulatory authority is able to determine approved food sources.
+           A review of supplier names, shipment invoices, buyer specification
+           plans,    molluscan    shellfish  tags,   proof   of   regulatory
+           permit/licensure of a food source, etc. can be used to document
+           approved food sources. Wild harvested mushrooms if sold or
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                               Page 8 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                served have been approved by the regulatory authority. Milk and
+                milk products must comply with Grade A Standards. This item
+                should be marked OUT of compliance when an approved food
+                source cannot be determined and if the regulatory authority did
+                not approve the sale or service of wild harvested mushrooms and
+                it is observed in the food establishment for sale and service.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+8. Food received at proper temperature
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           actual food temperature measurements of TCS foods being
+           received. This item should be marked IN compliance when food is
+           received and found at proper temperatures during the inspection
+           (i.e. catered meal for child care center arrives during the
+           inspection and the regulatory authority verifies receiving
+           temperature). This item should be marked OUT of compliance if
+           food is received and accepted, but an actual food temperature
+           measurement of a TCS food by the regulatory authority at the
+           time of delivery exceeds the temperature specifications for
+           receiving as prescribed by the Texas Food Establishment Rules
+           (TFER).
+
+       N.A. This item may be marked N.A. for retail operations when the
+            establishment receives only foods that are not TCS food and that
+            are not frozen.
+
+       N.O. This item may be marked N.O. if food is not received during the
+            inspection.
+
+
+9. Protection from Contamination Food separated and protected
+
+       IN/OUT     This item should be marked IN or OUT of compliance based
+           on direct observations of food storage and food handling practices.
+           This item should be marked OUT of compliance when ready-to-eat
+           foods are subject to potential contamination by raw animal foods;
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                               Page 9 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                raw animal foods are observed not separated by type based on
+                minimum cook temperatures by spacing or placing in separate
+                containers; unpackaged comminuted or otherwise non intact
+                meats are stored above unpackaged whole muscle intact cuts of
+                meat; food is not packaged or covered during storage (unless in
+                the process of cooling); or food is in contact with soiled equipment
+                and utensils; or single-use gloves used for more than one task.
+
+       N.A. This item may be marked N.A. when there are no raw animal foods
+            used in the facility and only prepackaged foods are sold.
+
+       N.O. This item is marked N.O. when raw animal foods are used or
+            served seasonally and you are unable to determine compliance.
+
+
+10. Food-contact surfaces: cleaned and sanitized
+
+       IN/OUT This item must be marked IN or OUT of compliance based on
+           direct observations of food contact surfaces of equipment and
+           utensils; actual measurements/readings of chemical sanitizer
+           concentration, hot water sanitizing temperature, pH, hardness,
+           water pressure, etc. using test strips, heat-sensitive tapes, and
+           equipment gauges; observations of cleaning and sanitizing
+           procedures; and discussion of cleaning and sanitizing procedures
+           and frequency with the PIC or other food employees. This item
+           must be marked IN compliance when manual and/or mechanical
+           methods of cleaning and sanitizing are effective, and performed
+           at the prescribed frequency. There should be an overall
+           assessment of the food-contact surfaces of equipment and
+           utensils in clean storage and in use to determine compliance. For
+           example, this item is not marked OUT of compliance based on one
+           visibly soiled utensil, such as a plate or knife. This item must be
+           marked OUT of compliance when manual and/or mechanical
+           methods of cleaning and sanitizing food-contact surfaces of
+           equipment and utensils are ineffective, or if one multiuse piece of
+           equipment such as a slicer or can opener is visibly soiled and being
+           used at the time of the inspection. This item is also marked OUT
+           if it is observed that equipment or utensils that have come into
+           contact with a major food allergen such as fish was not cleaned
+           and sanitized prior to use for other types of raw animal foods.
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 10 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+       N.A. This item may be marked N.A. only when there is no requirement
+            to clean equipment and utensils such as when only prepackaged
+            foods are sold.
+
+       N.O. Do Not Mark this item N.O
+
+
+11. Proper disposition of returned, previously served, reconditioned,
+and unsafe food
+
+       IN/OUT This item must be marked IN or OUT of compliance. This item
+           is marked OUT of compliance if food is found unsafe, adulterated,
+           not honestly presented, from an unapproved source, or if ready-
+           to-eat food is contaminated by employees and is not discarded or
+           reconditioned according to an approved procedure, or if previously
+           served unwrapped, unprotected food is observed being re-served.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+12. Management and food employee knowledge, and conditional
+employee; responsibilities and reporting.
+
+       IN/OUT This item must be marked IN or OUT of compliance. This item
+           is marked IN compliance when the following criteria are met:
+
+            1. The PIC is aware of his or her responsibility to inform food
+               employees and conditional employees of their responsibility to
+               report certain symptoms or diagnosed diseases to the person in
+               charge and for the PIC to report to the regulatory authority; and
+
+            2. The PIC provides documentation or otherwise satisfactorily
+               demonstrates during the inspection that all food employees and
+               conditional employees are informed of their responsibility to
+               report to management information about their health and
+               activities as it relates to diseases that are transmissible through
+               food. Satisfactory compliance may be documented by completion
+               of the Conditional Employees or Food Employees Reporting
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 11 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                Agreement for each employee or other similar State or local form
+                containing the same information; or
+
+            3. In lieu of Conditional Employees or Food Employees Reporting
+               Agreement, compliance may be demonstrated by:
+                        a) Presenting evidence such as a curriculum and
+                           attendance rosters documenting that each employee
+                           has completed a training program which includes all
+                           the information required on Agreement regarding
+                           their reporting responsibilities; or
+                        b) Implementation of an employee health policy which
+                           includes a system of employee notification using a
+                           combination of training, signs, pocket cards, or other
+                           means to convey all of the required information on
+                           Form 1-B to all food employees and conditional
+                           employees. A signed acknowledgement by the
+                           employee should be part of any employee health
+                           policy.
+
+                The regulatory authority is encouraged to establish a policy of
+                selecting one employee at random during each inspection and
+                requesting the PIC verify, by one of the previously listed methods,
+                that the selected employee has been informed of his or her
+                responsibility to report symptoms, exposures, and diagnosed
+                illnesses to management. The PIC is not expected to quote
+                symptoms and diseases from memory, but should be able to
+                locate that information on Form 1-B or similar documents used to
+                demonstrate compliance.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+12a, Clean-up of Vomiting and Diarrheal Events
+
+       IN/OUT This item should be marked IN or OUT of compliance. This
+           items is marked IN compliance when it is demonstrated that the
+           food establishment has procedures for employees to follow when
+           responding to vomiting or diarrheal events that involve the
+           discharge of vomitus or fecal matter onto surfaces in the food
+           establishment. Refer to the Cleanup of Vomiting and Diarrheal
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 12 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                Events Guidance Document for suggested recommendations as to
+                what the food establishment can include within their plan (this is
+                not an exhaustive list). This item is marked OUT of compliance if
+                the establishment does not demonstrate the ability to provide
+                procedures for employees to follow when responding to vomiting
+                or diarrheal events that involve the discharge of vomitus or fecal
+                matter onto surfaces in the food establishment.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+13. Proper use of restriction and exclusion/No discharge from eyes,
+nose, and mouth
+
+       IN/OUT This item must be marked IN or OUT of compliance.
+           Compliance must be based on first hand observations or
+           information and cannot be based solely on responses from the PIC
+           to questions regarding hypothetical situations or knowledge of the
+           Food Code. This item is marked IN when the following criteria are
+           observed at the time of the inspection:
+                 • There are no ill employees.
+                 • There are no employees experiencing symptoms with or
+                 without a diagnosis that require reporting, or reason for the
+                 PIC to exclude or restrict an employee
+                 • A food employee who works in a food establishment
+                 serving a HSP or non-HSP, is restricted due to diagnoses
+                 with an infection from nontyphoidal Salmonella and is
+                 asymptomatic.       This item should be marked OUT of
+                 compliance when:
+                 • The inspector observes a working employee with specific
+                 reportable symptoms; or
+                 • The inspector becomes aware that an employee has
+                 reported information about his or her health and activities
+                 as it relates to diseases that are transmissible through food
+                 and the PIC has not acted to restrict/exclude an employee
+                 as required by the TFER; or
+                 • The inspector becomes aware that the PIC has not notified
+                 the Regulatory Authority that an employee is jaundiced or
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 13 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                     diagnosed with an illness due to a pathogen as specified in
+                     the TFER
+                     • There are food employees working in the food
+                     establishment that have been diagnosed with an illness;
+                     Additionally, in food establishments exclusively serving a
+                     highly susceptible population, there are to be no food
+                     employees with an active sore throat with a fever working
+                     in the food establishment.
+                There are no food employees are observed having persistent
+                sneezing, coughing, or a runny nose that causes discharge from
+                the eyes, nose or mouth. This item should be marked OUT of
+                compliance when a food employee has persistent sneezing,
+                coughing, or a runny nose that causes discharges from the eyes,
+                nose or mouth, subjecting food and food-contact surfaces to
+                potential contamination.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+14. Hands clean and properly washed/ Gloves used properly
+
+       IN/OUT This item should be marked IN or OUT of compliance. This item
+           is marked IN compliance only when employees are observed using
+           proper handwashing techniques at appropriate times and places.
+           Hands are not required to be washed between each change of
+           gloves, if it is observed that there was no change in the task being
+           performed and no activities which could potentially result in cross
+           contamination. The observation of food preparation activities and
+           glove-use by food employees is necessary. There should be a
+           discussion with the PIC on how gloves are used, if applicable, in
+           food preparation activities. Gloves may serve as a source of cross-
+           contamination if misused.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. This item may be marked N.O. for retail operations only in the
+            RARE case when there are no food workers present at the time of
+            inspection. (If there are no food workers present, but the PIC
+            accompanies the inspector on the inspection and touches food,
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 14 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                clean equipment, or utensils without washing his/her hands, this
+                item is marked OUT).
+
+
+15. No bare hand contact with RTE foods or a pre-approved alternate
+properly followed
+
+       IN/OUT This item should be marked IN or OUT of compliance. This item
+           is marked IN compliance only when food employees are observed
+           using suitable utensils or gloves to prevent bare hand (or arm)
+           contact with ready-to-eat foods or if the food employee contacts
+           exposed RTE food with bare hands at the time the RTE food is
+           being added as an ingredient to a food that:
+                 • Contains a raw animal food and is to be cooked in the food
+                 establishment to heat all parts of the food to minimum
+                 temperatures; or
+                 • Does not contain a raw animal food but is to be cooked in
+                 the food establishment to heat all parts of the food to a
+                 temperature of at least 63°C (145°F).
+
+                This item is also marked IN compliance when food employees are
+                observed properly following a preapproved alternative procedure
+                to no bare hand contact. This item should be marked OUT of
+                compliance if one food employee is observed ready-to-eat food
+                with their bare hands in the absence of a prior approval and
+                written procedures for bare hand contact. Refer to TFER for a
+                listing of conditions that must be met in order to receive prior
+                approval by the Regulatory Authority. Bare hand contact by food
+                employees serving a Highly Susceptible Population is prohibited
+                and no alternative to bare hand contact is allowed. This item is
+                also marked OUT when food employees’ contact exposed RTE food
+                with bare hands that is to be added as ingredients to a food that
+                is not properly heat treated.
+
+       N.A. This item may be marked N.A. for establishments that provide
+            only packaged, or bulk food items that are not ready-to-eat.
+
+       N.O. This item may be marked N.O. for establishments that prepare
+            ready-to-eat foods only, but no food preparation is performed at
+            the time of inspection.
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 15 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+
+16. Highly Susceptible Population/ Pasteurized foods used; prohibited
+foods not offered
+
+       NOTE: Discussions with the PIC and employees regarding whether or
+           not certain foods are served or certain practices occur in the
+           establishment, along with observations should be used to
+           determine compliance.
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations and discussions with the PIC and food
+           employees regarding whether or not certain foods are served or
+           certain practices occur in an establishment serving a highly
+           susceptible population. Violations of bare hand contact by food
+           employees serving a highly susceptible population is marked
+           under Item #16. This item should be marked IN compliance if only
+           treated/pasteurized juices/juice beverages are served; only
+           pasteurized eggs are used in recipes if eggs are undercooked and
+           if eggs are combined, unless there is a cook step or HACCP plan
+           to control Salmonella enteriditis; no raw or partially cooked animal
+           foods or raw seed sprouts are served; and no unopened packaged
+           food is re-served following service to patients in medical isolation
+           or quarantine. Certain menu items use eggs as an ingredient in
+           the preparation of RTE foods, such as Caesar salad, Hollandaise
+           sauce, etc. This is verified by discussion with the PIC and food
+           employees regarding the substitution of pasteurized egg products
+           for raw eggs in uncooked foods.
+
+       N.A. This item may be marked N.A. if a highly susceptible population is
+            not served.
+
+       N.O. Do Not Mark this item N.O.
+
+
+17. Food additives: approved and properly used
+
+       IN/OUT    This item should be marked IN or OUT of compliance based
+           on direct observations of food ingredients in storage and listed as
+           product ingredients supplemented by discussion with the PIC. This
+           item is marked IN compliance if approved food and color additives
+           are on site and used properly or if sulfites are on the premises,
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 16 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                and they are not applied to fresh fruits/vegetables for raw
+                consumption. Approved food additives are listed and have
+                threshold limits in accordance with the CFRs, and does not apply
+                to food additives that are considered Generally Recognized as Safe
+                (GRAS), such as salt, pepper, etc. This item is marked OUT of
+                compliance if unapproved additives are found on the premises or
+                approved additives are improperly used, such as sulfites being
+                applied to fresh fruits or vegetables. Raw fruits and vegetables are
+                to be washed prior to their preparation or offered as RTE.
+                Chemicals are allowed for washing fruits and vegetables, along
+                with simply washing them in water. Chemicals that are used in the
+                wash water for fruits and vegetables must be listed and approved
+                with threshold limits in accordance with the CFR’s. Refer to the
+                label or labeling of the additive for adequate directions and to
+                assure safe use. Discussion with the PIC and food employees will
+                help determine the establishment’s practice.
+
+
+       N.A. This item may be marked N.A. if the food establishment does not
+            use any additives or sulfites on the premises.
+
+       N.O. Do Not Mark this item N.O.
+
+
+18. Toxic substances properly identified, stored, and used; held for
+retail sale, properly
+Stored
+
+       IN/OUT      This item should be marked IN or OUT of compliance based
+           on direct observations of food labeling, storage, reconstitution,
+           and application of bulk and working containers of cleaning agents
+           and sanitizers, personal care items, first aid supplies, medicines,
+           pesticides, and potential toxic and poisonous substances. This
+           item should be marked IN compliance when bulk and working
+           containers of cleaning agents and sanitizers are labeled; sanitizing
+           solutions are not exceeding the maximum concentrations;
+           personal care items, first aid supplies, medicines, and chemicals
+           are stored separate from and not above food, equipment, utensils,
+           linens, and single-service and single-use articles; and restricted
+           use pesticides are applied only by or under the supervision of a
+           certified applicator. This item should be marked OUT of
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 17 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                compliance if a cleaning agent or sanitizer is not properly
+                identified and stored; if a sanitizing solution has a higher
+                concentration than prescribed and medicines and first aid kits are
+                improperly labeled and stored. Violations of solutions exceeding
+                the recommended concentration in chemical washes for fruits and
+                vegetables would be marked under this item.
+
+       N.A. This item may be marked N.A. if the establishment does not hold
+            poisonous or toxic materials for retail sale.
+
+       N.O. Do Not Mark this item N.O.
+
+
+19. Water from approved source
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations. There are two types of systems: Public Water
+           System or Non-Public Water System. Regardless of its source, it
+           must meet drinking water standards established by EPA and
+           applicable state drinking water quality standards. If a non-public
+           system is used as Drinking water, the water is sampled / tested
+           at least yearly and records retained on file at the food
+           establishment or per state regulations. Consideration must be
+           given to the supply containers, piping, hoses, etc., connected to
+           the APPROVED source when water is made available for mobile
+           and/or temporary food establishment without a permanent
+           supply.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+20. Sewage and waste water properly disposed/ proper backflow
+devices
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations. Observations of the facilities overall sewage
+           and wastewater system is necessary to determine if a violation
+           exists. Indications that a system is not functioning properly may
+           include the presence of sewage back-up into the establishment or
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 18 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                outdoors on the ground. Condensate drip and other non-sewage
+                wastes must be drained to a system in accordance to LAW, and
+                backflow prevention, if required, installed between the sewage
+                system and drain of equipment holding food or utensils. Mobile
+                wastewater holding tanks must also be assessed for capacity and
+                maintenance. The observation of an approved plumbing system,
+                installed and maintained, including the equipment and devices
+                connected to the potable water supply, is necessary to determine
+                whether a violation exists. An assessment of the layout of the
+                establishment and the water distribution system is made to
+                determine if there are any points at which the potable water
+                supply is subject to contamination or is in disrepair.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+21. PIC present, demonstrates knowledge, and performs duties
+
+       IN/OUT This item must be marked IN or OUT of compliance. The person
+           in charge (PIC) has three assigned responsibilities – Presence;
+           Demonstration of Knowledge; and Duties. This item is marked
+           OUT of compliance if any one of the responsibilities is not met. A.
+           Person in charge is present. This item is marked OUT of
+           compliance if there is no PIC B. Demonstration of Knowledge. The
+           PIC has three options for demonstrating knowledge. This item is
+           marked IN compliance if the PIC meets at least one of the options.
+           The three options for demonstration of knowledge allowed by the
+           TFER are:
+
+                1. Certification by an ACCREDITED PROGRAM.
+                2. Complying with the TFER by having no violations of priority
+                      items during the current inspection; or
+                3. Correct responses to the inspector's questions regarding public
+                      health practices and principles applicable to the operation.
+
+                The inspector should assess this item by asking open-ended
+                questions that would evaluate the PIC's knowledge in each of the
+                areas. Questions can be asked during the initial interview, menu
+                review, or throughout the inspection as appropriate. The Inspector
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 19 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                should ask a sufficient number of questions to enable the inspector
+                to make an informed decision concerning the PIC's knowledge of
+                the Code requirements and public health principles as they apply
+                to the operation. The dialogue should be extensive enough to
+                reveal whether or not that person is enabled by a clear
+                understanding of the Code and its public health principles to follow
+                sound food safety practices and to produce foods that are safe,
+                wholesome, unadulterated, and accurately represented. C. Duties
+                of the PIC. This item must be marked IN or OUT of compliance
+                based on the interaction and observation with the PIC and food
+                employee.
+
+                The inspector needs to determine the systems or controls the PIC
+                has put into practice regarding oversight and/or routine
+                monitoring of the Duties. This is accomplished by
+                1. discussion with the PIC, and
+                2. verified through observation that the systems or controls are
+                   actually being implemented.
+
+                This concept is commonly referred to as Active Managerial Control.
+                This item must be marked OUT of compliance when there is a
+                pattern of non-compliance and obvious failure by the PIC to
+                ensure employees are complying with the duties listed in TFER.
+                Since marking this item out of compliance requires judgment, it is
+                important that this item not be marked for an isolated incident,
+                but rather for an overall evaluation of the PIC's ability to ensure
+                compliance with the duties described in TFER.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+21a. Certified Food Protection Manager
+
+       IN/OUT This item must be marked IN or OUT of compliance. This item
+           is marked IN compliance when it is observed that at least one
+           employee that has supervisory and management responsibility
+           and the authority to direct and control food preparation and
+           service is a certified food protection manager. This item is marked
+           OUT when it is observed that there is no employee with
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 20 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                supervisory and management responsibility with the authority to
+                direct and control food preparation that is deemed a certified food
+                protection manager or the certified food protection manager
+                certificate is deemed not to be from an accredited program.
+
+       N.A. This item may be marked N.A. if the establishment is deemed by
+            the Regulatory Authority to not apply due to the minimal risk of
+            causing, or contributing to foodborne illness based on the nature
+            of the operation and extent of food operation.
+
+       N.O. Do NOT MARK this item N.O.
+
+
+22. Food Handler
+
+       IN/OUT This item must be marked IN or OUT of compliance. This item
+           is marked IN compliance when it is observed that food employee
+           have received food handler training from an accredited program.
+           This item is marked OUT when it is observed that there is no food
+           employee with food handler training or the food handler
+           certificate/card is deemed not to be from an accredited program.
+
+       N.A. This item may be marked N.A. if the establishment is deemed by
+            the Regulatory Authority to not apply due to the minimal risk of
+            causing, or contributing to foodborne illness based on the nature
+            of the operation and extent of food operation.
+
+       N.O. Do NOT MARK this item N.O.
+
+
+23. Hot and cold water available; adequate pressure
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observation. Regardless of the supply system, the
+           distribution of water to the facility must be protected and operated
+           according to law. Adequate pressure is to be maintained at all
+           fixtures during peak demand including the capacity to provide hot
+           water at peak hot water demand.
+
+       N.A. Do Not Mark this item N.A.
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 21 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+       N.O. Do NOT MARK this item N.O.
+
+
+24. Required records available: shellstock tags, parasite destruction
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations of fish in storage, shellstock tags, and/or
+           records of freezing of fish for parasite destruction. This item
+           should be marked IN compliance if the permit holder provides a
+           statement from supplier(s) identifying that fish sold as raw, raw-
+           marinated or undercooked is frozen by supplier for parasite
+           destruction; or there are freeze records maintained by the permit
+           holder when fish are frozen for parasite destruction on the
+           premises. This item should be marked OUT of compliance if there
+           are no shellstock tags available, when the shellstock tags are
+           incomplete, when there is evidence of commingling of shellstock,
+           or when no records of freezing of fish for parasite destruction are
+           available. Fish exempt from freezing requirements are found in
+           TFER.
+
+       N.A. This item may be marked N.A. when shellstock are not used in the
+            establishment and the only fish sold as raw, raw-marinated or
+            undercooked is the tuna species or aquacultured fish listed as
+            exempted from freezing in the TFER.
+
+       N.O. This item may be marked N.O. when shellstock or raw, raw-
+            marinated and undercooked fish are sold periodically in the
+            establishment, but are not being sold at the time of inspection and
+            prior compliance through tags, invoices, or purchase records
+            cannot be verified.
+
+
+25. Compliance with variance, specialized process, reduced oxygen
+packaging criteria or HACCP Plan
+
+       NOTE: Except for fish a HACCP plan is not required when a TCS food is
+           packaged using a reduced oxygen packaging method and is
+           labeled with production time and date, held at required cold
+           holding temperature, and removed from ROP packaging within 48
+           hours after packaging at the food establishment.
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 22 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+       IN/OUT     This item should be marked IN or OUT of compliance based
+           on direct observations of food preparation and storage, a
+           discussion with the PIC to determine if there are specialized food
+           processes [i.e. smoking food, curing food, reduced oxygen
+           packaging, using food additives to render a food so that it is not
+           TCS food, cook chill, sous vide, etc.] and the record review of
+           standard operating procedures and HACCP documentation. This
+           item should be marked IN compliance when observations of food
+           operations and review of available records indicate compliance is
+           being met with regards to specialized food processes and HACCP
+           plans were submitted to the regulatory authority prior to
+           conducting a ROP operation that conforms to procedures within
+           TFER.This item should be marked OUT of compliance if the
+           inspection reveals specialized food processes that are not
+           approved by the regulatory authority are performed or not
+           conducted in accordance with the approved variance or a HACCP
+           plan was not submitted to the regulatory authority prior to
+           engaging in a ROP operation without a variance. When a Food
+           Establishment wants to deviate from a requirement in the code,
+           utilizes Specialized Processing Methods such as Smoking Food for
+           Preservation, curing food etc. a variance must first be obtained
+           from the regulatory authority. A HACCP plan may also be required
+           as part of the variance request.
+
+       N.A. This item may be marked N.A. if the establishment is not required
+            by the regulatory authority to have a variance or HACCP plan,
+            juice is not packaged or reduced oxygen packaging is not done on
+            the premises.
+
+       N.O. Do Not Mark this item N.O.
+
+
+26. Consumer advisory provided for raw or undercooked food
+
+       IN/OUT     This item should be marked IN or OUT of compliance based
+           on a thorough review with the PIC of the posted, written and
+           special/daily menus, to determine if untreated shell eggs, meats,
+           fish, or poultry are used as an ingredient or ordered as a raw, raw-
+           marinated, partially cooked, or undercooked food. The advisory
+           also applies to shellstock offered for sale from a retail service case.
+           This item should be marked IN compliance if the establishment
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 23 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                provides an advisory that meets the intent of the Food Code for
+                both the disclosure and reminder components. This item should
+                be marked OUT of compliance when raw or undercooked foods are
+                served or sold and there is no consumer advisory, the food item
+                is not disclosed, or there is no reminder statement. The
+                consumer advisory does not exempt the requirement for freezing
+                for parasite control, nor should it be used for foods that have only
+                gone through the initial heating and cooling stages of a non-
+                continuous cooking process.
+
+       N.A. This item may be marked N.A. when a food establishment does
+            not serve a ready-to-eat food that necessitates an advisory, i.e.,
+            an animal food that is raw, undercooked, or not otherwise
+            processed to eliminate pathogens.
+
+       N.O. Do Not Mark this item N.O.
+
+
+27. Proper cooling                  methods           used;       adequate          equipment            for
+temperature control
+
+       IN/OUT This item should be marked IN or OUT of compliance
+           A determination must first be made that cooling food is part of the
+           processing step. To assess whether or not the methods used
+           facilitate the cooling criteria, a discussion with the PIC should
+           support actual observations used in cooling foods. There should
+           be enough equipment with sufficient capacity used for the cooling,
+           heating and hot/cold holding of foods requiring temperature
+           control as specified in TFER to meet the demands of the operation.
+           Observations must support the determination of compliance
+           status. Frozen food is solid to the touch.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+28. Proper date marking and disposition
+
+       IN/OUT This item should be marked IN or OUT of compliance. This item
+           would be IN compliance when there is a system in place for date
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 24 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                marking all foods that are required to be date marked and is
+                verified through observation. If date marking applies to the
+                establishment, the PIC should be asked to describe the methods
+                used to identify product shelf-life or “consume-by” dating. The
+                regulatory authority must be aware of food products that are listed
+                as exempt from date marking. For disposition, mark IN when
+                foods are all within date marked time limits or food is observed
+                being discarded within date marked time limits or OUT of
+                compliance, such as when date marked food exceeds the time
+                limit or date-marking is not done.
+
+       N.A. This item may be marked N.A. when there is no ready-to-eat, TCS
+            food prepared on premise and held, or commercial containers of
+            ready-to-eat, TCS food opened and held, over 24 hours in the
+            establishment.
+
+       N.O. This item may be marked N.O. when the establishment does
+            handle foods requiring date marking, but there are no foods
+            requiring date marking in the facility at the time of inspection.
+
+
+29. Thermometers provided and accurate/Test strips provided
+
+       IN/OUT     This item should be marked IN or OUT of compliance based
+           on direct observations
+           Thermometers provide a means for assessing active managerial
+           control of TCS food temperatures. Determine compliance by
+           observing the in-use storage location and verifying the scaling of
+           the temperature measuring devices in the range of use to measure
+           food, water, or ambient air temperatures. Food thermometers
+           must be calibrated at a frequency to ensure accuracy. Food
+           thermometers should be accessible for use by employees and
+           have a probe size appropriate to the food item. The establishment
+           has the appropriate chemical / thermo test strip for the sanitizer
+           solution used by the establishment.
+
+       NA.      Do Not Mark this item NA.
+
+       N.O. Do Not Mark this item N.O.
+
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 25 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+31. Adequate handwashing sinks, properly supplied and accessible
+
+       IN/OUT This item must be marked IN or OUT of compliance based on
+           observations in determining that handwashing sinks are properly
+           equipped and conveniently located for employee use in food
+           preparation, food dispensing and warewashing areas as well as in
+           or immediately adjacent to toilet rooms. This item must be
+           marked OUT of compliance when the facility is not stocked with
+           soap, hand drying provisions or equipped with the required
+           signage. In addition, if the handwashing sink is not located to be
+           available to employees who are working in a food preparation
+           area, food dispensing and warewashing areas and is blocked by
+           portable equipment or stacked full of soiled utensils or other
+           items, or the facility is unavailable for regular employee use, this
+           item must be marked OUT of compliance.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+32. Food and non-food-contact surfaces cleanable, properly designed,
+constructed and used
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations. Equipment and utensils must be properly
+           designed and constructed, and in good repair. Proper installation
+           and location of equipment in the food establishment are important
+           factors to consider for ease of cleaning in preventing accumulation
+           of debris and attractants for insects and rodents. The components
+           in a vending machine must be properly designed to facilitate
+           cleaning and protect food products (e.g., equipped with automatic
+           shutoff, etc.) from potential contamination. Equipment must be
+           properly used and in proper adjustment, such as calibrated food
+           thermometers.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. Do Not Mark this item N.O.
+
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 26 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+33. Warewashing facilities, installed, maintained, used
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations Adequate warewashing facilities must be
+           available and used for the cleaning and sanitization of food contact
+           surfaces, including the availability of means to monitor its use and
+           the effectiveness of sanitization. For example, an irreversible
+           registering temperature indicator is provided and readily
+           accessible for measuring the utensil surface temperature for
+           establishment that have a hot water mechanical warewashing
+           operation. Observation of manual and mechanical warewashing
+           methods are made to assess the procedure for cleaning and
+           sanitizing equipment and utensils.
+
+       N.A. Do Not Mark this item N.A.
+
+     N.O. Do Not Mark this item N.O.
+34. Insects, rodents and animals not present
+
+       IN/OUT    This item should be marked IN or OUT of compliance based
+           on direct observations. An assessment is made through
+           observation and discussion with the PIC for measures taken to
+           control the presence of pests in the food establishment, including
+           elimination of entry points and harborage areas, and removal of
+           pests and its evidence. Insect trapping devices must not be
+           located over food preparation areas.
+
+       NA.      Do Not Mark this item NA.
+
+       N.O. Do Not Mark this item N.O.
+
+
+35. Personal cleanliness/ Proper eating, tasting, drinking, or tobacco
+use
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations or discussions of the appropriate hygienic
+           practices of food employees. This item should be marked IN
+           compliance when a food employee is observed drinking from a
+           closed beverage container subsequently stored on a non-food-
+           contact surface and separate from exposed food, clean
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 27 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                equipment, and unwrapped single- service and single-use articles.
+                This item should be marked OUT of compliance when food
+                employees are observed improperly tasting food, eating, drinking,
+                or smoking, or there is supporting evidence of these activities
+                taking place in non-designated areas of the establishment. An
+                open container of liquid in the kitchen preparation area does not
+                necessarily constitute marking this item OUT. Further discussion
+                with a food employee or the PIC may be needed to determine if
+                the liquid, if labeled, is used as an ingredient in food, or may be
+                an employee beverage that is consumed in another designated
+                area. If the liquid is an open beverage that is consumed in a
+                designated area, it must still be stored in a manner to prevent the
+                contamination of food, equipment, utensils, linens and single-
+                service/single-use articles. Observation of facility personnel for
+                clean outer clothing, effective hair restraints, prohibited jewelry
+                and the condition or protection of fingernails must be made.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. This item may be marked N.O. for retail operations only in the
+            RARE case when there are no food workers present at the time of
+            inspection.
+
+
+36. Wiping cloths; properly used and stored
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations. Wiping cloths are to be used for a designated
+           purpose and properly used. When stored in solution, the solutions
+           should be reasonably clean and maintained at the proper sanitizer
+           concentration. Solutions exceeding the recommended sanitizer
+           concentrations would be marked on the Inspection Form under
+           item # 18, Toxic substances properly identified, stored, and used.
+           Sponges, if present, are not to be used in contact with
+           clean/sanitized food contact surfaces.
+
+       N.A. Do Not Mark this item N.A.
+
+       N.O. This item may be marked N.O.
+
+37. Environmental Contamination
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 28 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations. The observation and understanding of the
+           flow of food items from the point of receipt to the point of sale,
+           service or distribution is necessary to determine whether a
+           violation exists. Food is subject to direct and indirect sources of
+           contamination in the establishment. Sources may be related to
+           the working environment, packaging, adequacy of storage
+           facilities, and exposure of food on display to contamination (i.e.
+           salad bars).
+
+       N.A. This item may be marked N.A. if no environmental contamination
+            exist due to the nature of the establishment.
+
+       N.O. This item may be marked N.O. if no environmental contamination
+            was not observed during the inspection
+
+
+38. Approved thawing methods used
+
+       IN/OUT    This item should be marked IN or OUT of compliance based
+           on direct observations. Observing and then gaining an
+           understanding of the establishment’s thawing method(s) will help
+           in determining whether a violation exists from the approved
+           thawing methods as well as the level of risk imposed. Keep in mind
+           that various food products especially those destined for deep fat
+           frying are often slacked (not thawed) prior to cooking.
+
+       N.A. This item may be marked N.A. if TCS food are not thawed.
+
+       N.O. This item may be marked N.O. if this food is thawed, but thawing
+            was not observed during the inspection.
+
+
+39. Utensils, equipment and linens; properly stored, dried, handled/
+In-use utensils; properly stored
+
+       IN/OUT    This item should be marked IN or OUT of compliance based
+           on direct observations. An assessment is made of the overall
+           storage practices and handling of clean equipment and utensils,
+           including tableware located in the various areas within an
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 29 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                establishment, including the basement, wait station and dining
+                room. Equipment must be air dried prior to storage, and linens
+                must be properly cleaned and stored. Based on the type of
+                operation, there are a number of methods available for storage of
+                in-use utensils during pauses in food preparation or dispensing,
+                such as in the food, clean and protected, or under running water
+                to prevent bacterial growth. If stored in a container of water, the
+                water temperature must be at least 135°F. In-use utensils may
+                not be stored in chemical sanitizer or ice between uses. Ice scoops
+                may be stored handles up in an ice bin except for an ice machine.
+
+       NA.      Do Not Mark this item NA.
+
+       N.O. Do Not Mark this item N.O.
+
+
+40. Single-use/single-service articles; properly stored, used
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations. These items are not designed to be cleaned
+           and re-used; therefore, they must be properly stored and
+           protected to prevent from possible contamination. Food
+           establishments without facilities for cleaning and sanitizing
+           kitchenware and tableware shall provide only single-use and
+           single-service articles.
+
+       NA.      Do Not Mark this item NA.
+
+       N.O. Do Not Mark this item N.O
+
+
+41. Food properly labeled; original container
+
+       IN/OUT    This item should be marked IN or OUT of compliance based
+           on direct observations. Packaged foods are required to conform to
+           specific labeling laws. Foods packaged within the food
+           establishment must also conform to the appropriate labeling laws,
+           with considerations given to accuracy as well as not being
+           misleading. In addition, all major food allergens, if present, must
+           be accurately declared on the package. Working containers and
+           bulk foods removed from their original packaging require some
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 30 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                level of assessment as to how recognizable the food is without
+                labeling by its common name. Molluscan shellfish and vended TCS
+                foods must specifically be assessed based on their specific
+                packaging and labeling requirements.
+
+       N.A. This item may be marked N.A. if all bulk food is in original
+            packaging.
+
+       N.O. This item may be marked N.O. if bulk food containers were not
+            observed during the inspection.
+
+
+42. Non-food-contact surfaces clean
+
+       IN/OUT   This item should be marked IN or OUT of compliance based
+           on direct observations.     Observations should be made to
+           determine if the frequency of cleaning is adequate to prevent soil
+           accumulations on non-food-contact surfaces.
+
+       NA.      Do Not Mark this item NA.
+
+       N.O. This item may be marked N.O. if soil/debris accumulations on non-
+            food-contact surfaces were not observed during the inspection.
+
+
+43. Adequate ventilation and lighting; designated areas used
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations. Observations should be made to ensure that
+           the ventilation is adequately preventing an accumulation of
+           condensation, grease or other soil from potentially contaminating
+           food and the surrounding environment and that lights are at an
+           adequate light intensity, and personal belongings are properly
+           stored to maintain clean and sanitary facility and protect food and
+           equipment.
+
+       NA.      Do Not Mark this item NA.
+
+       N.O. This item may be marked N.O. if conditions with ventilation and
+            lighting were not observed during the inspection.
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 31 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+
+44. Garbage/refuse properly disposed; facilities maintained
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations. The assessment of the refuse collection and
+           disposal areas for proper receptacles and maintenance is
+           necessary to determine whether a violation exists. Since refuse
+           areas may attract and harbor insects and pests, as well as create
+           a public health nuisance, particular attention must be paid to the
+           maintenance of the refuse facilities and area.
+
+       NA.      Do Not Mark this item NA.
+
+       N.O. This item may be marked N.O. if conditions with disposal or
+            maintenance of garbage/refuse were not observed during the
+            inspection.
+
+
+45. Physical facilities installed, maintained, and clean
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations. Observations are made of the overall
+           conditions or practices related to the physical facility (e.g.,
+           materials used, good repair, and maintained). It is important to
+           make an overall assessment of the physical facility conditions to
+           determine the level of compliance and the potential public health
+           impact involved if compliance is not met. Storage of maintenance
+           tools, use of laundry facilities, if applicable, disposal of mop water
+           and separate living/sleeping quarters are included in this section.
+
+       NA.      Do Not Mark this item NA.
+
+       N.O. This item may be marked N.O. if conditions with the physical
+            facility were not observed during the inspection.
+
+
+46. Toilet facilities: properly constructed, supplied, clean
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations.    A toilet facility should be assessed to
+           determine if: it is not an attractant to insects; the number of
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 32 of 33                                        Rev. 8/16
+                                          Texas Department of State Health Services
+                                           Instructions for Marking the Food Establishment
+                                                                          Inspection Report
+
+                fixtures are adequate; toilet tissue and a covered trash receptacle
+                (ladies room only) are provided; fixtures are not being kept clean;
+                and the door self-closes to prevent recontamination of hands.
+
+       NA.      Do Not Mark this item NA.
+
+       N.O. Do Not Mark this item N.O
+
+
+47. Other Violations
+
+       NOTE:      Violations that were not previously categorized under items
+           1-46 are noted on this item. In addition any local or agency
+           violations that are specific to that local or agency policy or
+           procedures can be marked under this item.
+
+       IN/OUT This item should be marked IN or OUT of compliance based on
+           direct observations.
+
+       N.A. This item may be marked N.A. if no other violations pertain to the
+            establishment due to the nature of the establishment.
+
+       N.O. This item may be marked N.O. if other violations were not
+            observed during the inspection
+
+
+
+
+  Public Sanitation and Retail Food Safety Group ● PO Box 149347, Mail Code 1987 ● Austin, Texas 78714-9347
+         (512) 834-6753 ● Facsimile: (512) 834-6683 ● http://www.dshs.texas.gov/foodestablishments/
+
+Pub # - 23-14890                              Page 33 of 33                                        Rev. 8/16
+

@@ -1,0 +1,167 @@
+                                                           Texas Department of State Health Services
+                                                          Retail Food Establishment Inspection Report
+
+ Date:                  Time in:                Time out:                License/Permit #                                            Est. Type       Risk Category      Page __ of ___
+
+ Purpose of Inspection:               1-Compliance                 2-Routine                3-Field Investigation                4-Visit                  5-Other       TOTAL/SCORE
+ Establishment Name:                                             Contact/Owner Name:                                    Number of Repeat Violations: ____
+                                                                                                                        Number of Violations COS: _____
+
+ Physical Address:                                          City/County:                    Zip Code:    Phone:                                    Follow-up: Yes
+                                                                                                                                                   No (circle one)
+
+                Compliance Status: Out = not in compliance IN = in compliance NO = not observed NA = not applicable COS = corrected on site  R = repeat violation
+ Mark the appropriate points in the OUT box for each numbered item     Mark ‘’ a checkmark in appropriate box for IN, NO, NA, COS Mark an asterisk ‘  ’ in appropriate box for R
+                                         Priority Items (3 Points) violations Require Immediate Corrective Action not to exceed 3 days
+ Compliance Status                                                                           Compliance Status
+ O   I    N    N   C                                                                R        O   I   N   N   C                                                                           R
+                               Time and Temperature for Food Safety
+ U   N    O    A   O                                                                         U   N   O   A   O                              Employee Health
+ T                 S                    (F = degrees Fahrenheit)                             T               S
+                       1. Proper cooling time and temperature                                                       12. Management, food employees and conditional employees;
+                                                                                                                    knowledge, responsibilities, and reporting
+                       2. Proper Cold Holding temperature(41°F/ 45°F)                                               13. Proper use of restriction and exclusion; No discharge from
+                                                                                                                    eyes, nose, and mouth
+                       3. Proper Hot Holding temperature(135°F)                                                                   Preventing Contamination by Hands
+                       4. Proper cooking time and temperature                                                       14. Hands cleaned and properly washed/ Gloves used properly
+                       5. Proper reheating procedure for hot holding (165°F in 2                                    15. No bare hand contact with ready to eat foods or approved
+                       Hours)                                                                                       alternate method properly followed (APPROVED Y___N___)
+                       6. Time as a Public Health Control; procedures & records                                                      Highly Susceptible Populations
+                                           Approved Source                                                          16. Pasteurized foods used; prohibited food not offered
+                                                                                                                    Pasteurized eggs used when required
+                       7. Food and ice obtained from approved source; Food in
+                       good condition, safe, and unadulterated; parasite                                                                         Chemicals
+                       destruction
+                       8. Food Received at proper temperature                                                       17. Food additives; approved and properly stored; Washing Fruits
+                                                                                                                    & Vegetables
+                                    Protection from Contamination                                                   18. Toxic substances properly identified, stored and used
+                       9. Food Separated & protected, prevented during food                                                                 Water/ Plumbing
+                       preparation, storage, display, and tasting
+                       10. Food contact surfaces and Returnables ; Cleaned and                                      19. Water from approved source; Plumbing installed; proper
+                       Sanitized at _______ ppm/temperature                                                         backflow device
+                       11. Proper disposition of returned, previously served or                                     20. Approved Sewage/Wastewater Disposal System, proper
+                       reconditioned                                                                                disposal
+                                          Priority Foundation Items (2 Points) violations Require Corrective Action within 10 days
+ O   I    N    N   C                                                                R        O   I   N   N   C                                                                           R
+ U   N    O    A   O           Demonstration of Knowledge/ Personnel                         U   N   O   A   O                Food Temperature Control/ Identification
+ T                 S                                                                         T               S
+                       21. Person in charge present, demonstration of knowledge,                                    27. Proper cooling method used; Equipment Adequate to
+                       and perform duties/ Certified Food Manager (CFM)                                             Maintain Product Temperature
+                       22. Food Handler/ no unauthorized persons/ personnel                                         28. Proper Date Marking and disposition
+                            Safe Water, Recordkeeping and Food Package                                              29. Thermometers provided, accurate, and calibrated; Chemical/
+                                                Labeling                                                            Thermal test strips
+                       23. Hot and Cold Water available; adequate pressure, safe                                           Permit Requirement, Prerequisite for Operation
+                       24. Required records available (shellstock tags; parasite
+                                                                                                                    30. Food Establishment Permit (Current & Valid)
+                       destruction); Packaged Food labeled
+                              Conformance with Approved Procedures                                                                 Utensils, Equipment, and Vending
+                       25. Compliance with Variance, Specialized Process, and
+                                                                                                                    31. Adequate handwashing facilities: Accessible and properly
+                       HACCP plan; Variance obtained for specialized
+                                                                                                                    supplied, used
+                       processing methods; manufacturer instructions
+                                          Consumer Advisory                                                         32. Food and Non-food Contact surfaces cleanable, properly
+                                                                                                                    designed, constructed, and used
+                       26. Posting of Consumer Advisories; raw or under cooked                                      33. Warewashing Facilities; installed, maintained, used/
+                       foods (Disclosure/Reminder/Buffet Plate)/ Allergen Label                                     Service sink or curb cleaning facility provided
+                       Core Items (1 Point) Violations Require Corrective Action Not to Exceed 90 Days or Next Inspection , Whichever Comes First
+ O   I    N    N   C                                                                R        O   I   N   N   C                                                                           R
+ U   N    O    A   O               Prevention of Food Contamination                          U   N   O   A   O                             Food Identification
+ T                 S                                                                         T               S
+                       34. No Evidence of Insect contamination, rodent/other                                        41.Original container labeling (Bulk Food)
+                       animals
+                       35. Personal Cleanliness/eating, drinking or tobacco use                                                               Physical Facilities
+                       36. Wiping Cloths; properly used and stored                                                  42. Non-Food Contact surfaces clean
+                       37. Environmental contamination                                                              43. Adequate ventilation and lighting; designated areas used
+                       38. Approved thawing method                                                                  44. Garbage and Refuse properly disposed; facilities maintained
+                                         Proper Use of Utensils                                                     45. Physical facilities installed, maintained, and clean
+                       39. Utensils, equipment, & linens; properly used, stored,                                    46. Toilet Facilities; properly constructed, supplied, and clean
+                       dried, & handled/ In use utensils; properly used
+                       40. Single-service & single-use articles; properly stored                                    47. Other Violations
+                       and used
+ Received by:                                                                           Print:                                                      Title: Person In Charge/ Owner
+ (signature)
+ Inspected by:                                                                          Print:                                                      Business Email:
+ (signature)
+Form EH-06 (Revised 09-2015)
+                            Texas Department of State Health Services
+                           Retail Food Establishment Inspection Report
+
+                       Corrective Actions to Ensure Safe Food                               Page __ of __
+
+Item No.
+
+  1        Cooling
+            TCS* food cooled from 135° F to 70° F more than 2 hours OR 135° F to 41° F (45° F)
+              More than 6 hours; OR prepared food cooled to 41° F (45° F) more than 4 hours:
+              Action: Voluntary destruction, rapid reheating of cooked foods if less than 4 hours
+
+  2        Cold Hold
+            TCS food held above 41° F (45° F) more than 4 hours:
+              Action: Voluntary destruction
+
+              TCS food held above 41° F (45° F) less than 4 hours:
+               Action: Rapid cool (e.g. ice bath)
+
+   3       Hot Hold
+            TCS food held below 135° F more than 4 hours:
+              Action: Voluntary destruction
+
+            TCS food held below 135° F less than 4 hours:
+             Action:      Rapid reheats to 165° F or more
+
+      4    Cooking
+            TCS food undercooked:
+              Action: Re-cook to proper temperature
+
+      5    Rapid Reheating
+            TCS food improperly reheated:
+              Action: Reheat rapidly to 165° F
+
+   7       Approved Source/Sound Condition
+            Foods from unapproved sources/unsound condition:
+              Action: Voluntary destruction
+
+   9       Cross-Contamination of Raw/Cooked Foods
+            Ready-To-Eat food contaminated by raw TCS food:
+              Action: Voluntary destruction of ready-to-eat foods
+
+   14      Handwashing
+            Food employees observed not washing hands:
+              Action: Instruct employees to wash hands as specified in the Rules.
+
+   15      Proper Handling of Ready-to-Eat Foods
+            Employee did not properly wash and sanitize hands before touching ready-to-eat food with
+              Bare hands:
+              Action: Voluntary destruction
+
+   19, 23 Water Supply
+           Facility does not have water for washing hands, preparing food, or cleaning equipment/utensils:
+            Action: Voluntary suspension of food preparation
+
+   * Time/Temperature Control for Safety (TCS)
+                                             Texas Department of State Health Services
+                                            Retail Food Establishment Inspection Report
+
+ Establishment Name:                    Physical Address:                    City/State:              License/Permit #            Page __ of __
+
+
+                                                       TEMPERATURE OBSERVATIONS
+ Item/Location                         Temp        Item/Location                 Temp      Item/Location                                    Temp
+
+
+
+
+                                              OBSERVATIONS AND CORRECTIVE ACTIONS
+ Item          AN INSPECTION OF YOUR ESTABLISHMENT HAS BEEN MADE. YOUR ATTENTION IS DIRECTED TO THE CONDITIONS OBSERVED AND
+ Number        NOTED BELOW:
+
+
+
+
+ Received by:                                               Print:                                   Title: Person In Charge/ Owner
+ (signature)
+ Inspected by:                                              Print:
+ (signature)                                                                                         Samples: Y N        # collected ____
+Form EH-06 (Revised 09-2015)
+
