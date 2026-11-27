@@ -3,7 +3,7 @@
 _Last updated: 2026-11-26_
 
 ## Status
-Phases 0–1 done. App scaffolded and `src/data/rubric.json` complete and validated. Next: Phase 2 (inspection UI).
+Phases 0–2 done. Rubric complete and validated; start screen + station-by-station inspection UI working on mobile and desktop. Next: Phase 3 (verdict screen).
 
 ## Checklist
 - [x] Read the build plan
@@ -12,9 +12,10 @@ Phases 0–1 done. App scaffolded and `src/data/rubric.json` complete and valida
 - [x] Scaffold Vite + React + TS + Tailwind v4 (`npm run dev`, `npm run build`)
 - [x] Rubric validator: `npm run validate:rubric`
 - [x] **Phase 1:** `src/data/rubric.json`, all 47 items, 100 pts total, 8 areas. Validator passes.
-- [ ] **Phase 2:** inspection UI (mobile-first, In/Out/N/A, live score fixed at the top)
+- [x] **Phase 2:** inspection UI (mobile-first, In/Out/N/A, live score fixed at the top). Scoring unit tests: `npm test`
 - [ ] **Phase 3:** verdict screen (score, band, points lost, ranked fix list, print/PDF)
-- [ ] Demo touches: localStorage resume, "fill sample data" button, not-affiliated disclaimer
+- [x] Demo touches done: localStorage resume, not-affiliated disclaimer, confirm before "Start over"
+- [ ] Demo touch: "fill sample data" button (so a demo can jump straight to a realistic verdict)
 - [x] GitHub repo (public): https://github.com/MwaniN/austin-inspection-practice-test
 - [ ] Deploy (Vercel or GitHub Pages) and add the link here
 - [ ] *(Optional)* Phase 4: AI layer
@@ -42,6 +43,15 @@ Phases 0–1 done. App scaffolded and `src/data/rubric.json` complete and valida
 - **Areas (walk order):** Paperwork & Management → Staff & Handwashing → Receiving & Storage → Coolers & Cold Holding →
   Cooking & Hot Holding → Prep Area → Dish, Sanitizing & Chemicals → Facilities & Pests. Items within an area are in id order,
   so the higher-point items come first.
+- **App structure (Phase 2):** `src/lib/scoring.ts` (pure `summarize()`, unit-tested in `scoring.test.ts`), `src/lib/store.ts`
+  (`useReducer` + localStorage key `aipt:v1`; screens `start | inspect | verdict`; tapping the selected answer again clears it),
+  `src/lib/ui.ts` (band/severity colors), `components/` (ScoreBar, ItemCard, Disclaimer), `screens/` (StartScreen, InspectScreen).
+  The app always opens on the start screen; it shows "Resume" when there's saved progress.
+- **UI choices:** one station per screen with a scrollable chip stepper (✓ when complete, red count of Outs); "Mark the remaining N
+  as In" per station to keep the demo fast; a Fix box appears as soon as an item is marked Out; the form item # and code ref sit
+  inside "How to check" so the main card stays plain-language.
+- **Screenshots/visual checks:** the Playwright MCP needs an X server and fails in WSL. Instead use `playwright-core` driving
+  headless system Chrome (`/opt/google/chrome/chrome`) from a scratch script at a 390×844 mobile viewport.
 
 ## Needs review
 - ~~Code refs~~ **Verified.** Every cited section was checked against the 56-item guide's "Applicable Code Sections" lists
@@ -56,9 +66,9 @@ Phases 0–1 done. App scaffolded and `src/data/rubric.json` complete and valida
   Failing that, email ehsd.service@austintexas.gov. Until then the 47-item form is a safe basis.
 
 ## Next up
-**Phase 2: inspection UI** (`src/App.tsx` is currently a placeholder that just counts items).
-1. Start screen: one-line problem statement + "Start self-inspection".
-2. Inspection: one area at a time, stepper/progress across 8 areas, large In / Out / N/A buttons (N/A only when `allows_na`),
-   expandable "How to check" (`check`), score bar fixed at the top showing 100 − demerits.
-3. State in a `useReducer` keyed by item id, persisted to localStorage.
-Then Phase 3 (verdict screen).
+**Phase 3: verdict screen** (`src/App.tsx` currently renders a placeholder when `state.screen === 'verdict'`).
+1. Big score + band (labelled illustrative) + Pass/Fail against 70, points lost, and how many items are still unanswered.
+2. Ranked fix list from `summary.failed` (already sorted by points, then id): title, severity badge with its correction
+   deadline (`severity_labels[sev].correct_within`), the `fix` text, and the code ref. Group or label the Priority items as "fix first".
+3. Actions: "Back to inspection", "Start over", and Print / Save as PDF (`window.print()` + print styles).
+4. Then the "fill sample data" button on the start screen, the README, and deploy.
