@@ -38,6 +38,24 @@ if (items.length !== 47) fail(`expected 47 items, found ${items.length}`)
 const total = items.reduce((sum, i) => sum + (i.points ?? 0), 0)
 if (total !== 100) fail(`points total ${total}, expected 100`)
 
+// Every code section cited must appear in the DSHS 56-item guide's "Applicable Code Sections" lists.
+const guide = readFileSync(
+  new URL('../resources/sources/56-Item-Marking-Instructions_Version_1_0_20210721---FINAL.txt', import.meta.url),
+  'utf8',
+)
+for (const item of items) {
+  const refs = (item.code_ref ?? '')
+    .replace(/Food Code |TFER /g, '')
+    .split(/[,;]\s*/)
+    .map((s) => s.trim())
+    .filter((s) => /\d/.test(s))
+  for (const ref of refs) {
+    const base = ref.replace(/^§/, '').replace(/\(.*$/, '').replace(/\./g, '\\.')
+    if (!new RegExp(`^\\s*${base}(?!\\d)`, 'm').test(guide))
+      fail(`item ${item.id}: code ref "${ref}" not found in the 56-item guide`)
+  }
+}
+
 for (const area of rubric.areas ?? [])
   if (!items.some((i) => i.area === area.id)) fail(`area "${area.id}" has no items`)
 

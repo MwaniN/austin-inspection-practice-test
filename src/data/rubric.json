@@ -481,7 +481,7 @@
       "text": "Warewashing Facilities; installed, maintained, used / Service sink or curb cleaning facility provided",
       "severity": "priority_foundation",
       "points": 2,
-      "code_ref": "Food Code 4-301.12, 4-204.113, 4-501.116",
+      "code_ref": "Food Code 4-301.12, 4-204.113, 4-501.19",
       "plain_language": "Your dish machine or 3-compartment sink must work and be used correctly (wash, rinse, sanitize), and you need a mop sink.",
       "check": "Is the dish machine reaching its listed temperature or sanitizer level? Is the 3-compartment sink set up wash, rinse, sanitize, with test strips nearby?",
       "fix": "Call your chemical or machine vendor to service the dish machine. Post a diagram showing the 3-compartment sink setup.",

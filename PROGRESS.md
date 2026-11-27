@@ -43,9 +43,9 @@ Phases 0–1 done. App scaffolded and `src/data/rubric.json` complete and valida
   so the higher-point items come first.
 
 ## Needs review
-- **Code refs** were matched by hand. Many come straight from the 56-item guide's "Applicable Code Sections" lists; some
-  (e.g. items 10, 19, 20, 31, 33, 39, 43–46) were filled in from Food Code numbering and haven't been checked against the source text.
-  Spot-check them before showing anyone who knows the code.
+- ~~Code refs~~ **Verified.** Every cited section was checked against the 56-item guide's "Applicable Code Sections" lists
+  and confirmed to sit under the matching item. One bad ref was fixed (item 33: 4-501.116 → 4-501.19). `npm run validate:rubric`
+  now fails if any ref isn't in the guide.
 - **Plain-language / check / fix text** was written from the marking instructions plus standard Food Code limits (cooking temps,
   sanitizer ppm, 7-day date marking, etc.). It's a summary, not legal advice, and the UI should say so.
 
