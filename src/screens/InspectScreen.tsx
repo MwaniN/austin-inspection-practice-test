@@ -16,6 +16,10 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
   const { area, items } = itemsByArea[areaIndex]
   const isLast = areaIndex === itemsByArea.length - 1
   const unanswered = items.filter((i) => answers[i.id] === undefined)
+  const blocked = unanswered.length > 0
+  // Furthest station you may open: every station before it must be fully answered.
+  const firstIncomplete = itemsByArea.findIndex(({ items }) => items.some((i) => answers[i.id] === undefined))
+  const reachable = firstIncomplete === -1 ? itemsByArea.length - 1 : firstIncomplete
 
   // Start each station at the top.
   useEffect(() => {
@@ -25,7 +29,7 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
   return (
     <div className="min-h-dvh">
       <ScoreBar summary={summary} onHome={() => dispatch({ type: 'home' })} />
-      <AreaStepper current={areaIndex} answers={answers} onPick={(index) => dispatch({ type: 'goArea', index })} />
+      <AreaStepper current={areaIndex} reachable={reachable} answers={answers} onPick={(index) => dispatch({ type: 'goArea', index })} />
 
       <main className="mx-auto max-w-2xl px-4 pb-32">
         <div className="pt-5 pb-4">
@@ -85,10 +89,20 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
             Back
           </button>
           <button
-            onClick={() => (isLast ? dispatch({ type: 'finish' }) : dispatch({ type: 'goArea', index: areaIndex + 1 }))}
-            className="h-12 flex-1 rounded-xl bg-stone-900 text-[15px] font-semibold text-white shadow-sm transition hover:bg-stone-800 active:scale-[0.99]"
+            onClick={() => {
+              if (blocked) showItem(unanswered[0].id)
+              else if (isLast) dispatch({ type: 'finish' })
+              else dispatch({ type: 'goArea', index: areaIndex + 1 })
+            }}
+            className={`h-12 flex-1 rounded-xl text-[15px] font-semibold transition active:scale-[0.99] ${
+              blocked ? 'bg-stone-200 text-stone-600' : 'bg-stone-900 text-white shadow-sm hover:bg-stone-800'
+            }`}
           >
-            {isLast ? 'See my results' : `Next: ${itemsByArea[areaIndex + 1].area.name}`}
+            {blocked
+              ? `Answer ${unanswered.length} more to continue`
+              : isLast
+                ? 'See my results'
+                : `Next: ${itemsByArea[areaIndex + 1].area.name}`}
           </button>
         </div>
       </nav>
@@ -107,7 +121,17 @@ function showItem(id: number) {
   )
 }
 
-function AreaStepper({ current, answers, onPick }: { current: number; answers: Answers; onPick: (i: number) => void }) {
+function AreaStepper({
+  current,
+  reachable,
+  answers,
+  onPick,
+}: {
+  current: number
+  reachable: number
+  answers: Answers
+  onPick: (i: number) => void
+}) {
   const activeRef = useRef<HTMLButtonElement>(null)
   useEffect(() => {
     activeRef.current?.scrollIntoView({ inline: 'center', block: 'nearest', behavior: 'smooth' })
@@ -121,20 +145,34 @@ function AreaStepper({ current, answers, onPick }: { current: number; answers: A
           const complete = done === items.length
           const outs = items.filter((it) => answers[it.id] === 'out').length
           const active = i === current
+          const locked = i > reachable
           return (
             <button
               key={area.id}
               ref={active ? activeRef : undefined}
               onClick={() => onPick(i)}
+              disabled={locked}
+              title={locked ? 'Answer every item in the earlier stations first' : undefined}
               aria-current={active ? 'step' : undefined}
               className={`flex shrink-0 items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium whitespace-nowrap ring-1 ring-inset transition ${
                 active
                   ? 'bg-stone-900 text-white ring-stone-900'
-                  : complete
-                    ? 'bg-white text-stone-700 ring-stone-200'
-                    : 'bg-transparent text-stone-500 ring-stone-300 hover:bg-white'
+                  : locked
+                    ? 'cursor-not-allowed bg-transparent text-stone-400 ring-stone-200'
+                    : complete
+                      ? 'bg-white text-stone-700 ring-stone-200'
+                      : 'bg-transparent text-stone-600 ring-stone-300 hover:bg-white'
               }`}
             >
+              {locked && (
+                <svg viewBox="0 0 20 20" fill="currentColor" className="size-3.5" aria-hidden>
+                  <path
+                    fillRule="evenodd"
+                    d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              )}
               {complete && !active && (
                 <svg viewBox="0 0 20 20" fill="currentColor" className="size-4 text-emerald-600" aria-hidden>
                   <path
