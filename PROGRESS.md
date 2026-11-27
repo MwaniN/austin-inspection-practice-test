@@ -47,9 +47,14 @@ Phases 0–2 done. Rubric complete and validated; start screen + station-by-stat
   (`useReducer` + localStorage key `aipt:v1`; screens `start | inspect | verdict`; tapping the selected answer again clears it),
   `src/lib/ui.ts` (band/severity colors), `components/` (ScoreBar, ItemCard, Disclaimer), `screens/` (StartScreen, InspectScreen).
   The app always opens on the start screen; it shows "Resume" when there's saved progress.
-- **UI choices:** one station per screen with a scrollable chip stepper (✓ when complete, red count of Outs); "Mark the remaining N
-  as In" per station to keep the demo fast; a Fix box appears as soon as an item is marked Out; the form item # and code ref sit
-  inside "How to check" so the main card stays plain-language.
+- **UI choices:** one station per screen with a scrollable chip stepper (✓ when complete, red count of items needing a fix); a Fix
+  box appears as soon as an item is marked "Needs fix"; the form item # and code ref sit inside "How to check" so the main card
+  stays plain-language.
+- **Answer labels are "Looks good / Needs fix / N/A",** not the official "In / Out" (inspector jargon: IN = in compliance,
+  OUT = violation). Internally the values are still `in | out | na`, so scoring matches the form. User's call.
+- **No "mark the rest as good" shortcut** (removed): it nudges people to record answers they didn't check. Fast demos will
+  use the "fill sample data" button instead.
+- **Logo is a clipboard, not a checkmark:** a check in a square read as a clickable checkbox.
 - **Screenshots/visual checks:** the Playwright MCP needs an X server and fails in WSL. Instead use `playwright-core` driving
   headless system Chrome (`/opt/google/chrome/chrome`) from a scratch script at a 390×844 mobile viewport.
 

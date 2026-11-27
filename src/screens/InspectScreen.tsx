@@ -15,7 +15,6 @@ interface Props {
 export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) {
   const { area, items } = itemsByArea[areaIndex]
   const isLast = areaIndex === itemsByArea.length - 1
-  const unanswered = items.filter((i) => answers[i.id] === undefined)
 
   // Start each station at the top.
   useEffect(() => {
@@ -46,15 +45,6 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
             />
           ))}
         </div>
-
-        {unanswered.length > 0 && (
-          <button
-            onClick={() => dispatch({ type: 'answerMany', ids: unanswered.map((i) => i.id), answer: 'in' })}
-            className="mt-4 w-full rounded-xl py-3 text-sm font-semibold text-emerald-700 ring-1 ring-inset ring-emerald-200 transition hover:bg-emerald-50"
-          >
-            Mark the remaining {unanswered.length} as In
-          </button>
-        )}
       </main>
 
       <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-stone-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">

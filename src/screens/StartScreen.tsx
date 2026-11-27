@@ -15,12 +15,19 @@ export function StartScreen({ answered, onStart, onResume }: Props) {
     <main className="mx-auto flex min-h-dvh max-w-2xl flex-col px-5 pt-[max(env(safe-area-inset-top),2.5rem)] pb-[max(env(safe-area-inset-bottom),1.5rem)]">
       <div className="flex items-center gap-2 text-sm font-semibold text-stone-500">
         <span className="grid size-7 place-items-center rounded-lg bg-stone-900 text-white">
-          <svg viewBox="0 0 20 20" fill="currentColor" className="size-4" aria-hidden>
-            <path
-              fillRule="evenodd"
-              d="M16.7 5.3a1 1 0 0 1 0 1.4l-8 8a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.4L8 12.58l7.3-7.3a1 1 0 0 1 1.4 0Z"
-              clipRule="evenodd"
-            />
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className="size-4"
+            aria-hidden
+          >
+            <rect x="8" y="2" width="8" height="4" rx="1" />
+            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+            <path d="M9 12h6M9 16h4" />
           </svg>
         </span>
         Austin Inspection Practice Test
@@ -79,7 +86,7 @@ export function StartScreen({ answered, onStart, onResume }: Props) {
 
         <ol className="mt-10 space-y-3 text-[15px] text-stone-600">
           {[
-            'Go station by station and mark each item In, Out, or N/A.',
+            'Go station by station and mark each item as "Looks good" or "Needs fix".',
             'Watch your score drop from 100 as violations add up.',
             'Get your fix list, ranked by what costs you the most points.',
           ].map((step, i) => (
