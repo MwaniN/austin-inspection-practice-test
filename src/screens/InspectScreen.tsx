@@ -98,11 +98,7 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
               blocked ? 'bg-stone-200 text-stone-600' : 'bg-stone-900 text-white shadow-sm hover:bg-stone-800'
             }`}
           >
-            {blocked
-              ? `Answer ${unanswered.length} more to continue`
-              : isLast
-                ? 'See my results'
-                : `Next: ${itemsByArea[areaIndex + 1].area.name}`}
+            {isLast ? 'See my results' : `Next: ${itemsByArea[areaIndex + 1].area.name}`}
           </button>
         </div>
       </nav>

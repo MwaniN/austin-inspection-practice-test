@@ -57,7 +57,7 @@ Phases 0–2 done. Rubric complete and validated; start screen + station-by-stat
   The old "Mark the remaining N as In" button was removed because it told people *what* to answer. Fast demos will use the
   "fill sample data" button instead.
 - **Stations are gated:** you can't move forward until every item at the current station is answered. The Next / "See my
-  results" button turns grey and reads "Answer N more to continue"; tapping it jumps to the first unanswered card. Station
+  results" button keeps its label but turns grey; tapping it jumps to the first unanswered card. Station
   chips past the first incomplete station are disabled with a lock icon. Going back is always allowed. User's call.
 - **Logo is a clipboard, not a checkmark:** a check in a square read as a clickable checkbox.
 - **Screenshots/visual checks:** the Playwright MCP needs an X server and fails in WSL. Instead use `playwright-core` driving
