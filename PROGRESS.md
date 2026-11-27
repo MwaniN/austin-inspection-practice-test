@@ -21,7 +21,8 @@ Phase 0 (verify sources) is done apart from one open question that needs the use
   (items 1–20 = Priority, 3 pts; 21–33 = Priority Foundation, 2 pts; 34–47 = Core, 1 pt). The 2021
   56-item form leaves scoring to each jurisdiction and has no per-item points, so the app can't be scored from it.
   Austin's own docs say Pf = 2 and Core = 1, which matches the 47-item form.
-- **Code references** come from `resources/sources/Marking-Instructions.txt` (the 47-item guide).
+- **Code references** come from the 56-item guide's "Applicable Code Sections" lists, matched to each of the 47 items,
+  because the 47-item guide (`Marking-Instructions.txt`) cites no code sections. Use the 47-item guide for In/Out/N.A. criteria (`allows_na`).
 - **Bands:** the plan's Green/Yellow/Red bands aren't confirmed as an official Austin grade. Austin publishes
   only a number. Label the bands "illustrative" in the UI unless that gets confirmed.
 - **Fail line: 70 passes, 69 or below fails and triggers a re-inspection.** Confirmed by local news coverage
