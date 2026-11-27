@@ -86,7 +86,7 @@ export function StartScreen({ answered, onStart, onResume }: Props) {
 
         <ol className="mt-10 space-y-3 text-[15px] text-stone-600">
           {[
-            'Go station by station and mark each item as "Looks good" or "Needs fix".',
+            'Go station by station and mark each item In, Out, or N/A.',
             'Watch your score drop from 100 as violations add up.',
             'Get your fix list, ranked by what costs you the most points.',
           ].map((step, i) => (
@@ -98,6 +98,25 @@ export function StartScreen({ answered, onStart, onResume }: Props) {
             </li>
           ))}
         </ol>
+
+        <section className="mt-8 rounded-2xl bg-white p-4 ring-1 ring-stone-200">
+          <h2 className="text-sm font-semibold text-stone-900">What In, Out and N/A mean</h2>
+          <p className="mt-1 text-sm leading-relaxed text-stone-600">
+            These are the same marks an Austin inspector puts on the official report.
+          </p>
+          <dl className="mt-3 space-y-2.5 text-sm leading-relaxed">
+            {[
+              ['In', 'text-emerald-700', 'In compliance. The item meets the rule, so no points are lost.'],
+              ['Out', 'text-rose-700', 'Out of compliance: a violation. Costs 1 to 3 points depending on how serious it is.'],
+              ['N/A', 'text-stone-600', "Not applicable. The item doesn't apply to your place. Only offered where that's realistic."],
+            ].map(([term, color, meaning]) => (
+              <div key={term} className="flex gap-3">
+                <dt className={`w-9 shrink-0 font-bold ${color}`}>{term}</dt>
+                <dd className="text-stone-600">{meaning}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
       </div>
 
       <Disclaimer />

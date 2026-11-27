@@ -15,6 +15,7 @@ interface Props {
 export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) {
   const { area, items } = itemsByArea[areaIndex]
   const isLast = areaIndex === itemsByArea.length - 1
+  const unanswered = items.filter((i) => answers[i.id] === undefined)
 
   // Start each station at the top.
   useEffect(() => {
@@ -45,6 +46,33 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
             />
           ))}
         </div>
+
+        {unanswered.length > 0 ? (
+          <div className="mt-4 flex items-center justify-between gap-3 rounded-xl bg-white px-4 py-3 ring-1 ring-stone-200">
+            <p className="text-sm text-stone-600">
+              <span className="tabular font-semibold text-stone-900">{unanswered.length}</span>{' '}
+              {unanswered.length === 1 ? 'item' : 'items'} at this station {unanswered.length === 1 ? 'is' : 'are'} still
+              unanswered.
+            </p>
+            <button
+              onClick={() => showItem(unanswered[0].id)}
+              className="shrink-0 rounded-lg px-3 py-2 text-sm font-semibold text-stone-800 ring-1 ring-inset ring-stone-300 transition hover:bg-stone-50"
+            >
+              Show me
+            </button>
+          </div>
+        ) : (
+          <p className="mt-4 flex items-center gap-2 px-1 text-sm font-medium text-emerald-700">
+            <svg viewBox="0 0 20 20" fill="currentColor" className="size-4" aria-hidden>
+              <path
+                fillRule="evenodd"
+                d="M16.7 5.3a1 1 0 0 1 0 1.4l-8 8a1 1 0 0 1-1.4 0l-4-4a1 1 0 1 1 1.4-1.4L8 12.58l7.3-7.3a1 1 0 0 1 1.4 0Z"
+                clipRule="evenodd"
+              />
+            </svg>
+            All {items.length} items at this station answered.
+          </p>
+        )}
       </main>
 
       <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-stone-200 bg-white/95 pb-[env(safe-area-inset-bottom)] backdrop-blur">
@@ -65,6 +93,17 @@ export function InspectScreen({ areaIndex, answers, summary, dispatch }: Props) 
         </div>
       </nav>
     </div>
+  )
+}
+
+/** Scroll to an item's card and briefly outline it so the eye lands on it. */
+function showItem(id: number) {
+  const el = document.getElementById(`item-${id}`)
+  if (!el) return
+  el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  el.animate(
+    [{ boxShadow: '0 0 0 3px rgb(28 25 23 / 0.7)' }, { boxShadow: '0 0 0 3px rgb(28 25 23 / 0)' }],
+    { duration: 1400, delay: 350, easing: 'ease-out' },
   )
 }
 

@@ -50,10 +50,12 @@ Phases 0–2 done. Rubric complete and validated; start screen + station-by-stat
 - **UI choices:** one station per screen with a scrollable chip stepper (✓ when complete, red count of items needing a fix); a Fix
   box appears as soon as an item is marked "Needs fix"; the form item # and code ref sit inside "How to check" so the main card
   stays plain-language.
-- **Answer labels are "Looks good / Needs fix / N/A",** not the official "In / Out" (inspector jargon: IN = in compliance,
-  OUT = violation). Internally the values are still `in | out | na`, so scoring matches the form. User's call.
-- **No "mark the rest as good" shortcut** (removed): it nudges people to record answers they didn't check. Fast demos will
-  use the "fill sample data" button instead.
+- **Answer labels stay "In / Out / N/A"** (the official inspector marks). The start screen has a short "What In, Out and N/A
+  mean" box explaining them. User's call, after briefly trying "Looks good / Needs fix".
+- **Unanswered prompt, never a suggested answer:** each station ends with "N items at this station are still unanswered" plus a
+  "Show me" button that scrolls to the first unanswered card and briefly outlines it (or "All N items answered" when done).
+  The old "Mark the remaining N as In" button was removed because it told people *what* to answer. Fast demos will use the
+  "fill sample data" button instead.
 - **Logo is a clipboard, not a checkmark:** a check in a square read as a clickable checkbox.
 - **Screenshots/visual checks:** the Playwright MCP needs an X server and fails in WSL. Instead use `playwright-core` driving
   headless system Chrome (`/opt/google/chrome/chrome`) from a scratch script at a 390×844 mobile viewport.

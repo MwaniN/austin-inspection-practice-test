@@ -10,8 +10,8 @@ interface Props {
 }
 
 const OPTIONS: { value: Answer; label: string; active: string }[] = [
-  { value: 'in', label: 'Looks good', active: 'bg-emerald-600 text-white ring-emerald-600 shadow-sm' },
-  { value: 'out', label: 'Needs fix', active: 'bg-rose-600 text-white ring-rose-600 shadow-sm' },
+  { value: 'in', label: 'In', active: 'bg-emerald-600 text-white ring-emerald-600 shadow-sm' },
+  { value: 'out', label: 'Out', active: 'bg-rose-600 text-white ring-rose-600 shadow-sm' },
   { value: 'na', label: 'N/A', active: 'bg-stone-600 text-white ring-stone-600 shadow-sm' },
 ]
 
@@ -23,7 +23,8 @@ export function ItemCard({ item, answer, onAnswer }: Props) {
 
   return (
     <article
-      className={`rounded-2xl bg-white p-4 shadow-sm ring-1 transition-colors sm:p-5 ${
+      id={`item-${item.id}`}
+      className={`scroll-mt-24 rounded-2xl bg-white p-4 shadow-sm ring-1 transition-colors sm:p-5 ${
         isOut ? 'ring-rose-300' : 'ring-stone-200'
       }`}
     >
@@ -74,7 +75,7 @@ export function ItemCard({ item, answer, onAnswer }: Props) {
         </div>
       )}
 
-      <div className={`mt-4 grid gap-2 ${options.length === 3 ? 'grid-cols-[3fr_3fr_2fr]' : 'grid-cols-2'}`} role="radiogroup" aria-label={item.title}>
+      <div className={`mt-4 grid gap-2 ${options.length === 3 ? 'grid-cols-3' : 'grid-cols-2'}`} role="radiogroup" aria-label={item.title}>
         {options.map((o) => {
           const selected = answer === o.value
           return (
