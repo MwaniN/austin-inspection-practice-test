@@ -15,6 +15,7 @@ Phases 0–1 done. App scaffolded and `src/data/rubric.json` complete and valida
 - [ ] **Phase 2:** inspection UI (mobile-first, In/Out/N/A, live score fixed at the top)
 - [ ] **Phase 3:** verdict screen (score, band, points lost, ranked fix list, print/PDF)
 - [ ] Demo touches: localStorage resume, "fill sample data" button, not-affiliated disclaimer
+- [x] GitHub repo (public): https://github.com/MwaniN/austin-inspection-practice-test
 - [ ] Deploy (Vercel or GitHub Pages) and add the link here
 - [ ] *(Optional)* Phase 4: AI layer
 
