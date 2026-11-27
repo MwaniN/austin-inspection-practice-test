@@ -3,7 +3,7 @@
 _Last updated: 2026-11-26_
 
 ## Status
-Phases 0–2 done. Rubric complete and validated; start screen + station-by-station inspection UI working on mobile and desktop. Next: Phase 3 (verdict screen).
+Phases 0–3 done: rubric, start screen, gated station-by-station inspection, and the verdict screen with a ranked fix list and print/PDF. Next: "fill sample data" button, README, deploy.
 
 ## Checklist
 - [x] Read the build plan
@@ -13,7 +13,7 @@ Phases 0–2 done. Rubric complete and validated; start screen + station-by-stat
 - [x] Rubric validator: `npm run validate:rubric`
 - [x] **Phase 1:** `src/data/rubric.json`, all 47 items, 100 pts total, 8 areas. Validator passes.
 - [x] **Phase 2:** inspection UI (mobile-first, In/Out/N/A, live score fixed at the top). Scoring unit tests: `npm test`
-- [ ] **Phase 3:** verdict screen (score, band, points lost, ranked fix list, print/PDF)
+- [x] **Phase 3:** verdict screen (score, band, points lost, ranked fix list, print/PDF)
 - [x] Demo touches done: localStorage resume, not-affiliated disclaimer, confirm before "Start over"
 - [ ] Demo touch: "fill sample data" button (so a demo can jump straight to a realistic verdict)
 - [x] GitHub repo (public): https://github.com/MwaniN/austin-inspection-practice-test
@@ -59,6 +59,13 @@ Phases 0–2 done. Rubric complete and validated; start screen + station-by-stat
 - **Stations are gated:** you can't move forward until every item at the current station is answered. The Next / "See my
   results" button keeps its label but turns grey; tapping it jumps to the first unanswered card. Station
   chips past the first incomplete station are disabled with a lock icon. Going back is always allowed. User's call.
+- **Verdict screen (Phase 3):** score counts down from 100 (skipped with reduced motion), "<band> band" pill, a display-only
+  0–100 gauge with the 70 pass line, headline "You'd pass / You'd fail / Perfect score" (fail shows `scoring.fail_note`), and
+  "Fixing your N Priority items alone would bring you to X" (adds "enough to pass" when it crosses 70). In/Out/N/A tally tiles.
+  Fix list grouped by severity with the official correction deadline per group, numbered in global rank order; each card shows
+  the fix first, with the rule text + form item # + code ref behind "What the rule says" (always expanded in print).
+  Actions: Print or save as PDF (`window.print()`, print CSS hides buttons and adds a dated header), Edit answers, Start over
+  (confirm). The bands note sits above the disclaimer. Start screen shows "See my results" when all 47 are answered.
 - **Logo is a clipboard, not a checkmark:** a check in a square read as a clickable checkbox.
 - **Screenshots/visual checks:** the Playwright MCP needs an X server and fails in WSL. Instead use `playwright-core` driving
   headless system Chrome (`/opt/google/chrome/chrome`) from a scratch script at a 390×844 mobile viewport.
@@ -76,9 +83,9 @@ Phases 0–2 done. Rubric complete and validated; start screen + station-by-stat
   Failing that, email ehsd.service@austintexas.gov. Until then the 47-item form is a safe basis.
 
 ## Next up
-**Phase 3: verdict screen** (`src/App.tsx` currently renders a placeholder when `state.screen === 'verdict'`).
-1. Big score + band (labelled illustrative) + Pass/Fail against 70, points lost, and how many items are still unanswered.
-2. Ranked fix list from `summary.failed` (already sorted by points, then id): title, severity badge with its correction
-   deadline (`severity_labels[sev].correct_within`), the `fix` text, and the code ref. Group or label the Priority items as "fix first".
-3. Actions: "Back to inspection", "Start over", and Print / Save as PDF (`window.print()` + print styles).
-4. Then the "fill sample data" button on the start screen, the README, and deploy.
+1. **"Fill sample data" button** on the start screen so a demo reaches a realistic verdict in seconds. Stations are gated,
+   so it must fill all 47 answers (dispatch `answerMany` per answer, or add a `load` action), then go to the verdict.
+   Pick a believable set: around 80 to 87 (Yellow band, passes) with 1 to 2 Priority items Out, plus a couple of N/A.
+2. **README** with a screenshot, what it does, the source documents, and the live link.
+3. **Deploy** (Vercel or GitHub Pages; GitHub Pages needs `base` set in `vite.config.ts`) and add the link to the checklist.
+4. Optional: Phase 4 AI layer; confirm Austin's current form edition (Open question A).

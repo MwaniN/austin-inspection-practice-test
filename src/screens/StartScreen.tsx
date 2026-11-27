@@ -3,11 +3,12 @@ import { Disclaimer } from '../components/Disclaimer'
 
 interface Props {
   answered: number
+  complete: boolean
   onStart: () => void
   onResume: () => void
 }
 
-export function StartScreen({ answered, onStart, onResume }: Props) {
+export function StartScreen({ answered, complete, onStart, onResume }: Props) {
   const total = rubric.items.length
   const hasProgress = answered > 0
 
@@ -63,7 +64,7 @@ export function StartScreen({ answered, onStart, onResume }: Props) {
                 onClick={onResume}
                 className="h-14 w-full rounded-2xl bg-stone-900 text-base font-semibold text-white shadow-sm transition hover:bg-stone-800 active:scale-[0.99]"
               >
-                Resume inspection · {answered}/{total} checked
+                {complete ? 'See my results' : `Resume inspection · ${answered}/${total} checked`}
               </button>
               <button
                 onClick={() => {
