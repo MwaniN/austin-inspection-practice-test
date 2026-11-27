@@ -3,13 +3,15 @@
 _Last updated: 2026-11-26_
 
 ## Status
-Phase 0 (verify sources) is done apart from one open question that needs the user. Next: Phase 1 (`rubric.json`).
+Phases 0–1 done. App scaffolded and `src/data/rubric.json` complete and validated. Next: Phase 2 (inspection UI).
 
 ## Checklist
 - [x] Read the build plan
 - [x] Download DSHS source PDFs into `resources/sources/` and convert them to text
 - [ ] Confirm Austin's current form edition (see Open questions)
-- [ ] **Phase 1:** `rubric.json`, all 47 items with area, severity, points, code_ref, plain_language, fix
+- [x] Scaffold Vite + React + TS + Tailwind v4 (`npm run dev`, `npm run build`)
+- [x] Rubric validator: `npm run validate:rubric`
+- [x] **Phase 1:** `src/data/rubric.json`, all 47 items, 100 pts total, 8 areas. Validator passes.
 - [ ] **Phase 2:** inspection UI (mobile-first, In/Out/N/A, live score fixed at the top)
 - [ ] **Phase 3:** verdict screen (score, band, points lost, ranked fix list, print/PDF)
 - [ ] Demo touches: localStorage resume, "fill sample data" button, not-affiliated disclaimer
@@ -31,12 +33,30 @@ Phase 0 (verify sources) is done apart from one open question that needs the use
 - **Stack: Vite + React + Tailwind on Node 22,** static, no backend. The rubric validator is written in Node too, so there is a single toolchain.
 - **Rubric gets a `check` field** (how to self-check this item right now), on top of the plan's schema. Approved by the user.
 
+- **Rubric schema** (beyond the plan's): `title` (short UI name), `check` (how to self-check now), `na_when` (shown when N/A
+  is allowed). Top level: `areas[]` (walk order), `severity_labels` (incl. official correction deadlines from the form), `scoring.pass_min`.
+- **N/A is offered on 14 items only** (1–6, 16, 17, 24–26, 28, 38, 41). The guide permits N.A. on a few more (8, 9, 10, 15, 18, 21, 22,
+  37, 47), but for those it practically never applies to a restaurant (e.g. "only prepackaged food sold"), so they're In/Out only.
+  N.O. (not observed) is folded into N/A.
+- **Areas (walk order):** Paperwork & Management → Staff & Handwashing → Receiving & Storage → Coolers & Cold Holding →
+  Cooking & Hot Holding → Prep Area → Dish, Sanitizing & Chemicals → Facilities & Pests. Items within an area are in id order,
+  so the higher-point items come first.
+
+## Needs review
+- **Code refs** were matched by hand to the 56-item guide's section lists and Food Code numbering. They're accurate at section level
+  but worth a spot-check before showing anyone who knows the code.
+- **Plain-language / check / fix text** was written from the marking instructions plus standard Food Code limits (cooking temps,
+  sanitizer ppm, 7-day date marking, etc.). It's a summary, not legal advice, and the UI should say so.
+
 ## Open questions
 - **A. Which form does Austin use today?** I couldn't confirm this online. The Austin "Overview of Changes to TFER"
   PDF now returns 404. The quickest way to settle it is a photo of a recent real Austin Public Health inspection report.
   Failing that, email ehsd.service@austintexas.gov. Until then the 47-item form is a safe basis.
 
 ## Next up
-1. Scaffold the Vite + React + Tailwind app (gives the rubric its home at `src/data/rubric.json`).
-2. Write the rubric validator (`npm run validate:rubric`).
-3. Write `rubric.json` in batches: Priority items 1–20, then Pf 21–33, then Core 34–47. Run the validator after each batch.
+**Phase 2: inspection UI** (`src/App.tsx` is currently a placeholder that just counts items).
+1. Start screen: one-line problem statement + "Start self-inspection".
+2. Inspection: one area at a time, stepper/progress across 8 areas, large In / Out / N/A buttons (N/A only when `allows_na`),
+   expandable "How to check" (`check`), score bar fixed at the top showing 100 − demerits.
+3. State in a `useReducer` keyed by item id, persisted to localStorage.
+Then Phase 3 (verdict screen).
