@@ -4,11 +4,13 @@ import { Disclaimer } from '../components/Disclaimer'
 interface Props {
   answered: number
   complete: boolean
+  sample: boolean
+  onSample: () => void
   onStart: () => void
   onResume: () => void
 }
 
-export function StartScreen({ answered, complete, onStart, onResume }: Props) {
+export function StartScreen({ answered, complete, sample, onStart, onSample, onResume }: Props) {
   const total = rubric.items.length
   const hasProgress = answered > 0
 
@@ -64,7 +66,7 @@ export function StartScreen({ answered, complete, onStart, onResume }: Props) {
                 onClick={onResume}
                 className="h-14 w-full rounded-2xl bg-stone-900 text-base font-semibold text-white shadow-sm transition hover:bg-stone-800 active:scale-[0.99]"
               >
-                {complete ? 'See my results' : `Resume inspection · ${answered}/${total} checked`}
+                {sample ? 'See the sample results' : complete ? 'See my results' : `Resume inspection · ${answered}/${total} checked`}
               </button>
               <button
                 onClick={() => {
@@ -81,6 +83,16 @@ export function StartScreen({ answered, complete, onStart, onResume }: Props) {
               className="h-14 w-full rounded-2xl bg-stone-900 text-base font-semibold text-white shadow-sm transition hover:bg-stone-800 active:scale-[0.99]"
             >
               Start self-inspection
+            </button>
+          )}
+          {!sample && (
+            <button
+              onClick={() => {
+                if (!hasProgress || window.confirm('Show a sample result? This replaces your current answers.')) onSample()
+              }}
+              className="w-full py-2 text-[15px] font-medium text-stone-600 underline decoration-stone-300 underline-offset-4 hover:text-stone-900"
+            >
+              Just looking? See a sample result
             </button>
           )}
         </div>

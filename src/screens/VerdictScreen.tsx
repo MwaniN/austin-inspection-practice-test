@@ -7,6 +7,7 @@ import { bandStyle, severityStyle } from '../lib/ui'
 interface Props {
   summary: ScoreSummary
   answers: Answers
+  sample: boolean
   onBack: () => void
   onRestart: () => void
 }
@@ -14,7 +15,7 @@ interface Props {
 const SEVERITIES: Severity[] = ['priority', 'priority_foundation', 'core']
 const areaName: Record<string, string> = Object.fromEntries(rubric.areas.map((a) => [a.id, a.name]))
 
-export function VerdictScreen({ summary, answers, onBack, onRestart }: Props) {
+export function VerdictScreen({ summary, answers, sample, onBack, onRestart }: Props) {
   const { score, pointsLost, passed, band, failed } = summary
   const style = bandStyle[band.label]
   const shown = useCountDown(score)
@@ -68,12 +69,26 @@ export function VerdictScreen({ summary, answers, onBack, onRestart }: Props) {
       </div>
 
       <p className="hidden text-sm text-stone-500 print:block">
-        Austin Inspection Practice Test · Self-inspection, {today}
+        Austin Inspection Practice Test · {sample ? 'Sample report' : 'Self-inspection'}, {today}
       </p>
+
+      {sample && (
+        <div className="mt-3 flex items-center justify-between gap-3 rounded-2xl bg-sky-50 px-4 py-3 ring-1 ring-sky-200">
+          <p className="text-sm leading-snug text-sky-900">
+            <span className="font-semibold">Sample results</span> for a made-up kitchen, not your answers.
+          </p>
+          <button
+            onClick={onRestart}
+            className="shrink-0 rounded-lg bg-sky-900 px-3 py-2 text-sm font-semibold text-white transition hover:bg-sky-800 print:hidden"
+          >
+            Start my own
+          </button>
+        </div>
+      )}
 
       {/* Score hero */}
       <section className="mt-3 rounded-3xl bg-white p-5 shadow-sm ring-1 ring-stone-200 sm:p-7 print:shadow-none">
-        <p className="text-sm font-semibold text-stone-500">Your practice score</p>
+        <p className="text-sm font-semibold text-stone-500">{sample ? 'Sample score' : 'Your practice score'}</p>
         <div className="mt-1 flex items-end justify-between gap-4">
           <div className="flex items-baseline gap-2" aria-label={`${score} out of 100`}>
             <span className={`tabular text-7xl leading-none font-bold tracking-tight ${style.text}`}>{shown}</span>
@@ -178,7 +193,7 @@ export function VerdictScreen({ summary, answers, onBack, onRestart }: Props) {
           </button>
           <button
             onClick={() => {
-              if (window.confirm('Start a new inspection? This clears all your answers.')) onRestart()
+              if (sample || window.confirm('Start a new inspection? This clears all your answers.')) onRestart()
             }}
             className="h-12 rounded-2xl text-[15px] font-semibold text-stone-700 ring-1 ring-inset ring-stone-300 transition hover:bg-white"
           >

@@ -1,4 +1,5 @@
-import { rubric } from './lib/rubric'
+import { SAMPLE_ANSWERS } from './data/sample'
+import { itemsByArea, rubric } from './lib/rubric'
 import { summarize } from './lib/scoring'
 import { useInspection } from './lib/store'
 import { InspectScreen } from './screens/InspectScreen'
@@ -15,6 +16,8 @@ export default function App() {
         answered={summary.answered}
         onStart={() => dispatch({ type: 'reset' })}
         complete={summary.answered === summary.total}
+        sample={state.sample}
+        onSample={() => dispatch({ type: 'loadSample', answers: SAMPLE_ANSWERS, areaIndex: itemsByArea.length - 1 })}
         onResume={() => dispatch({ type: summary.answered === summary.total ? 'finish' : 'start' })}
       />
     )
@@ -25,6 +28,7 @@ export default function App() {
       <VerdictScreen
         summary={summary}
         answers={state.answers}
+        sample={state.sample}
         onBack={() => dispatch({ type: 'goArea', index: state.areaIndex })}
         onRestart={() => dispatch({ type: 'reset' })}
       />

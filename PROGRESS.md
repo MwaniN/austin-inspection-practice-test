@@ -3,7 +3,7 @@
 _Last updated: 2026-11-26_
 
 ## Status
-Phases 0–3 done: rubric, start screen, gated station-by-station inspection, and the verdict screen with a ranked fix list and print/PDF. Next: "fill sample data" button, README, deploy.
+Phases 0–3 done: rubric, start screen, gated station-by-station inspection, and the verdict screen with a ranked fix list and print/PDF. Sample-result button and README done. Next: deploy (waiting on the user to talk it through).
 
 ## Checklist
 - [x] Read the build plan
@@ -15,7 +15,8 @@ Phases 0–3 done: rubric, start screen, gated station-by-station inspection, an
 - [x] **Phase 2:** inspection UI (mobile-first, In/Out/N/A, live score fixed at the top). Scoring unit tests: `npm test`
 - [x] **Phase 3:** verdict screen (score, band, points lost, ranked fix list, print/PDF)
 - [x] Demo touches done: localStorage resume, not-affiliated disclaimer, confirm before "Start over"
-- [ ] Demo touch: "fill sample data" button (so a demo can jump straight to a realistic verdict)
+- [x] Demo touch: "Just looking? See a sample result" button (85, Yellow, 2 Priority items Out). Tested in `src/data/sample.test.ts`
+- [x] README with screenshots (`docs/*.png`)
 - [x] GitHub repo (public): https://github.com/MwaniN/austin-inspection-practice-test
 - [ ] Deploy (Vercel or GitHub Pages) and add the link here
 - [ ] *(Optional)* Phase 4: AI layer
@@ -66,6 +67,13 @@ Phases 0–3 done: rubric, start screen, gated station-by-station inspection, an
   the fix first, with the rule text + form item # + code ref behind "What the rule says" (always expanded in print).
   Actions: Print or save as PDF (`window.print()`, print CSS hides buttons and adds a dated header), Edit answers, Start over
   (confirm). The bands note sits above the disclaimer. Start screen shows "See my results" when all 47 are answered.
+- **Sample result:** `src/data/sample.ts` (8 Out: items 2, 14, 28, 29, 31, 36, 39, 45; N/A: 6, 16, 25 → 85, Yellow, passes).
+  The `loadSample` action fills all 47 answers and goes straight to the verdict, with `sample: true` saved alongside the answers.
+  While it's set, the verdict shows a blue "Sample results for a made-up kitchen" banner with "Start my own", the score label
+  reads "Sample score", and the printed header says "Sample report". Reset clears it.
+- **README** is written for someone opening the repo from the job application. It only states what's sourced: it leaves out
+  the plan's unverified "Green/Yellow/Red twice a year" claim. Screenshots in `docs/` were taken with reduced motion,
+  at 390×844 @2x.
 - **Logo is a clipboard, not a checkmark:** a check in a square read as a clickable checkbox.
 - **Screenshots/visual checks:** the Playwright MCP needs an X server and fails in WSL. Instead use `playwright-core` driving
   headless system Chrome (`/opt/google/chrome/chrome`) from a scratch script at a 390×844 mobile viewport.
@@ -83,9 +91,7 @@ Phases 0–3 done: rubric, start screen, gated station-by-station inspection, an
   Failing that, email ehsd.service@austintexas.gov. Until then the 47-item form is a safe basis.
 
 ## Next up
-1. **"Fill sample data" button** on the start screen so a demo reaches a realistic verdict in seconds. Stations are gated,
-   so it must fill all 47 answers (dispatch `answerMany` per answer, or add a `load` action), then go to the verdict.
-   Pick a believable set: around 80 to 87 (Yellow band, passes) with 1 to 2 Priority items Out, plus a couple of N/A.
-2. **README** with a screenshot, what it does, the source documents, and the live link.
-3. **Deploy** (Vercel or GitHub Pages; GitHub Pages needs `base` set in `vite.config.ts`) and add the link to the checklist.
-4. Optional: Phase 4 AI layer; confirm Austin's current form edition (Open question A).
+1. **Deploy: talk it through with the user first** (they asked to discuss before deploying). Options: Vercel (zero config)
+   or GitHub Pages (needs `base: '/austin-inspection-practice-test/'` in `vite.config.ts` plus a Pages workflow). Then add
+   the live link to the README (top, under the title) and to the checklist here.
+2. Optional: Phase 4 AI layer; confirm Austin's current form edition (Open question A).
